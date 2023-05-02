@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+aside{
+    width:10% ;
+    height: 1000px;
+    background-color: black;
+}
+section{
+    width: 89%;
+    height: 1000px;
+    background-color: beige;
+}
