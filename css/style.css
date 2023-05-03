@@ -1,21 +1,30 @@
+/* Inicio Comandos Generales*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 main{
     width: 100%;
     display: flex;
 }
+
 aside{
     width:10% ;
     height: 1000px;
     background-color: black;
 }
-section{
+.contenedor{
     width: 89%;
     height: 1000px;
     background-color: beige;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
 }
 
 footer{
@@ -23,3 +32,44 @@ width: 100vW;
 height: 33vh;
 background: greenyellow;
 }
+
+/* FIN Comandos Generales*/
+/*************************************************************************************/
+/* Inicio Gorka header*/
+
+
+/*Fin Gorka header*/
+/*************************************************************************************/
+/* INICIO Gorka aside*/
+
+
+/* FIN Gorka aside*/
+/*************************************************************************************/
+/*INICIO section1 Chaimae*/
+
+
+
+
+
+/*FIN section1 Chaimae*/
+
+
+
+/***********************************************************/
+
+
+
+/*INICIO section2 Alex*/
+
+
+
+/*FIN section2 Alex*/
+
+
+/*************************************************************************************/
+
+
+/*INICIO Gorka footer*/
+
+/*FIN Gorka footer*/
+/*************************************************************************************/
