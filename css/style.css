@@ -63,7 +63,39 @@ footer {
 /* FIN Gorka aside*/
 /*************************************************************************************/
 /*INICIO section1 Chaimae*/
+.chaimae {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border: 2px solid rgb(135, 240, 128);
+}
 
+.art1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    border: 2px solid purple;
+}
+
+.img1 {
+    width: 49%;
+    background-image: url(../images/Captura\ de\ pantalla\ 2023-05-02\ 141135.png);
+    background-size: cover;
+}
+
+.txt1, .txt2{
+    width: 49%;
+}
+
+
+.img2{
+    width: 49%;
+    background-image: url(../images/2.jpg);
+   background-size: cover;
+}
+ 
 
 
 
