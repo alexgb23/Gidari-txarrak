@@ -1,5 +1,5 @@
 /* Inicio Comandos Generales*/
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@
 .cabeceraGK {
     width: 100%;
     background: blueviolet;
-
+    position: relative;
 }
 
 .contenedor-main {
@@ -33,21 +33,29 @@ aside {
 }
 
 section {
-    width: 100%;
-  
+    width: 100%;  
 }
 
 footer {
     width: 100%;
     height: 35vh;
-    background: greenyellow;
-    
+    background: greenyellow;    
 }
 
 /* FIN Comandos Generales*/
 /*************************************************************************************/
 /* Inicio Gorka header*/
+.img-corp{
+    width: 8vw;
+    height: 12vh;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
 
+.logo{
+    width: 80%;
+}
 
 /*Fin Gorka header*/
 /*************************************************************************************/
