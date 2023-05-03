@@ -104,6 +104,21 @@ footer {
 
 /*INICIO section2 Alex*/
 
+#enlacesa{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagenfondo{
+    width: 50%;
+    height: 400px;
+    background-image: url(../images/Camiones_de_carreras_06-650x366.jpg);
+    background-size: 100% 100%;
+}
+
 .contalex{
     display: flex;
 }
@@ -125,6 +140,42 @@ footer {
     background-image: url(../images/svg-image2.png);
     background-size: 100% 100%;
 }
+
+.contalexdiv{
+    width: 50%;
+    height: 500px;
+}
+.contalexdiv1{
+    width: 50%;
+    height: 500px;
+}
+#imagenfondogps{
+width: 100%;
+height: 300px;
+background-image: url(../images/450_1000.webp);
+background-size: 100% 100%;
+
+}
+#cpostal{
+    width:100%;
+    height: 200px;
+    background-image: url(../images/Sin\ título1.png);
+    background-size: 100% 100%;
+}
+
+#aplicaciones{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/Sin\ título.png);
+    background-size: 100% 100%;
+}
+#imagenfondoapp{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/banner-app.0e396ff37038.png);
+    background-size: 100% 100%;
+}
+
 
 
 /*FIN section2 Alex*/
