@@ -1,36 +1,53 @@
 /* Inicio Comandos Generales*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-main{
+.contendor-general {
     width: 100%;
-    display: flex;
+    margin: 0 auto;
+    position: relative;
 }
 
-aside{
-    width:10% ;
-    height: 1000px;
+.cabeceraGK {
+    width: 100%;
+    background: blueviolet;
+    position: absolute;
+
+}
+
+.contenedor-main {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+    top:15%;
+    right: 0%;
+}
+
+aside {
+    width: 10%; 
     background-color: black;
 }
-.contenedor{
-    width: 89%;
-    height: 1000px;
+
+.contenedor {
+    width: 100%;
     background-color: beige;
 }
 
-section{
+section {
     width: 100%;
-    height: 500px;
-    border: 2px solid red;
+  
 }
 
-footer{
-width: 100vW;
-height: 33vh;
-background: greenyellow;
+footer {
+    width: 100%;
+    height: 33vh;
+    background: greenyellow;
+    position: absolute;
+    top: 100%;
 }
 
 /* FIN Comandos Generales*/
