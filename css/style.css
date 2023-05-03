@@ -110,6 +110,27 @@ footer {
 
 /*INICIO section2 Alex*/
 
+.contalex{
+    display: flex;
+}
+.contalexprop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 2em;
+}
+#textopropaganda{
+    width: 90%;
+}
+#imgpropaganda{
+    width: 10%;
+    height: 60px;
+    background-image: url(../images/svg-image2.png);
+    background-size: 100% 100%;
+}
 
 
 /*FIN section2 Alex*/
