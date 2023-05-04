@@ -4,10 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.general{
+    display: flex;
+}
 
 .contendor-general {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 
 .cabeceraGK {
@@ -25,7 +29,7 @@
 }
 
 aside {
-    width: 10%;
+    width: 10%; 
     background-color: black;
 }
 
@@ -118,7 +122,31 @@ footer {
 /*Fin Gorka header*/
 /*************************************************************************************/
 /* INICIO Gorka aside*/
+aside{
+    cursor: pointer;
+    width: 10%; 
+    background-color: black;
+  
+}
 
+aside:hover{
+   scale:450% 100%;
+    position: relative;
+    background-color: black;
+    z-index:200;
+    transition: 200ms;
+}
+
+picture{
+    position: fixed;
+    top: 400px;
+    left:30px
+}
+
+picture img{
+width: 70%;
+
+}
 
 /* FIN Gorka aside*/
 /*************************************************************************************/
@@ -148,6 +176,7 @@ footer {
 .txt1,
 .txt2 {
     width: 49%;
+    
 }
 
 
