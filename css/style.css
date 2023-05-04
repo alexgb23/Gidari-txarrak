@@ -12,7 +12,9 @@
 
 .cabeceraGK {
     width: 100%;
-    background: blueviolet;
+    height: 10vh;
+    position: relative;
+    display: flex;
     position: relative;
 }
 
@@ -45,18 +47,76 @@ footer {
 /* FIN Comandos Generales*/
 /*************************************************************************************/
 /* Inicio Gorka header*/
+.cabe-prin {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: relative;
+}
+
+
 .img-corp{
-    width: 8vw;
-    height: 12vh;
+    width: 6vw;
+    height: 10vh;
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 10%;
 }
 
 .logo{
     width: 80%;
 }
 
+.navegador{
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+}
+
+.listado {
+    width: 100%;
+    height: 2.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.list-menu {
+    width: 40%;
+    list-style: none;
+    margin: auto;
+}
+
+.menu {
+    width: 100%;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    position: relative;
+    margin: auto;
+}
+
+
+.ini-ses {
+    width: 8%;
+    height: 40%;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-modal {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: rgb(241, 98, 2);
+    border: 0;
+    border-radius: 25px;
+}
 /*Fin Gorka header*/
 /*************************************************************************************/
 /* INICIO Gorka aside*/
