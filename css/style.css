@@ -173,7 +173,7 @@ footer {
 
 #enlacesa {
     width: 50%;
-    height: 400px;
+    height: 500px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -182,16 +182,17 @@ footer {
 
 #imagenfondo {
     width: 50%;
-    height: 400px;
+    height: 500px;
     background-image: url(../images/Camiones_de_carreras_06-650x366.jpg);
     background-size: 100% 100%;
 }
 
 .contalex {
     display: flex;
+   
 }
 
-.contalexprop {
+.contalexprop{
     display: flex;
     align-items: center;
     width: 100%;
@@ -238,12 +239,12 @@ footer {
 
 .contalexdiv {
     width: 50%;
-    height: 500px;
+    
 }
 
 .contalexdiv1 {
     width: 50%;
-    height: 500px;
+   
 }
 
 #imagenfondogps {
