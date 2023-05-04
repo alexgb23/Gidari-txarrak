@@ -1,5 +1,5 @@
 /* Inicio Comandos Generales*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,7 +25,7 @@
 }
 
 aside {
-    width: 10%; 
+    width: 10%;
     background-color: black;
 }
 
@@ -34,14 +34,11 @@ aside {
     background-color: beige;
 }
 
-section {
-    width: 100%;  
-}
 
 footer {
     width: 100%;
-    height: 35vh;
-    background: greenyellow;    
+    height: 15vh;
+
 }
 
 /* FIN Comandos Generales*/
@@ -55,7 +52,7 @@ footer {
 }
 
 
-.img-corp{
+.img-corp {
     width: 6vw;
     height: 10vh;
     position: absolute;
@@ -63,18 +60,18 @@ footer {
     left: 10%;
 }
 
-.logo{
+.logo {
     width: 80%;
 }
 
-.navegador{
+.navegador {
     width: 40%;
     position: absolute;
     top: 30%;
     right: 15%;
 }
 
-.listado {
+.list-nav {
     width: 100%;
     height: 2.2em;
     display: flex;
@@ -117,6 +114,7 @@ footer {
     border: 0;
     border-radius: 25px;
 }
+
 /*Fin Gorka header*/
 /*************************************************************************************/
 /* INICIO Gorka aside*/
@@ -147,17 +145,18 @@ footer {
     background-size: cover;
 }
 
-.txt1, .txt2{
+.txt1,
+.txt2 {
     width: 49%;
 }
 
 
-.img2{
+.img2 {
     width: 49%;
     background-image: url(../images/2.jpg);
-   background-size: cover;
+    background-size: cover;
 }
- 
+
 
 
 
@@ -172,7 +171,7 @@ footer {
 
 /*INICIO section2 Alex*/
 
-#enlacesa{
+#enlacesa {
     width: 50%;
     height: 400px;
     background-color: white;
@@ -180,17 +179,19 @@ footer {
     justify-content: center;
     align-items: center;
 }
-#imagenfondo{
+
+#imagenfondo {
     width: 50%;
     height: 400px;
     background-image: url(../images/Camiones_de_carreras_06-650x366.jpg);
     background-size: 100% 100%;
 }
 
-.contalex{
+.contalex {
     display: flex;
 }
-.contalexprop{
+
+.contalexprop {
     display: flex;
     align-items: center;
     width: 100%;
@@ -200,68 +201,74 @@ footer {
     font-size: 2.5em;
 }
 
-#textopropaganda{
+#textopropaganda {
     width: 85%;
     margin-left: 5%;
 }
-#imgpropaganda{
+
+#imgpropaganda {
     width: 5%;
     height: 50px;
     background-image: url(../images/svg-image2.png);
     background-size: 100% 100%;
 }
 
-.contalexprop2{
+.contalexprop2 {
     display: flex;
     align-items: center;
     width: 100%;
     height: 80px;
-    background-color:yellow;
+    background-color: yellow;
     color: black;
     font-size: 2.5em;
 }
 
-#textopropaganda2{
+#textopropaganda2 {
     width: 85%;
     margin-left: 5%;
 }
-#imgpropaganda2{
+
+#imgpropaganda2 {
     width: 5%;
     height: 50px;
     background-image: url(../images/svg-image.png);
     background-size: 100% 100%;
-    
+
 }
 
-.contalexdiv{
+.contalexdiv {
     width: 50%;
     height: 500px;
 }
-.contalexdiv1{
+
+.contalexdiv1 {
     width: 50%;
     height: 500px;
 }
-#imagenfondogps{
-width: 100%;
-height: 400px;
-background-image: url(../images/450_1000.webp);
-background-size: 100% 100%;
+
+#imagenfondogps {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/450_1000.webp);
+    background-size: 100% 100%;
 
 }
-#cpostal{
-    width:100%;
+
+#cpostal {
+    width: 100%;
     height: 250px;
     background-image: url(../images/Sin\ título1.png);
     background-size: 100% 100%;
 }
 
-#aplicaciones{
+#aplicaciones {
     width: 100%;
     height: 250px;
     background-image: url(../images/Sin\ título.png);
     background-size: 100% 100%;
 }
-#imagenfondoapp{
+
+#imagenfondoapp {
     width: 100%;
     height: 400px;
     background-image: url(../images/banner-app.0e396ff37038.png);
@@ -277,6 +284,39 @@ background-size: 100% 100%;
 
 
 /*INICIO Gorka footer*/
+.div-footer {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 
+.img-corp-down {
+    width: 6vw;
+    height: 10vh;
+
+}
+
+.inf-footer {
+    width: 50%;
+}
+
+.list-footer{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list-legal{
+    text-decoration: none;
+    margin-block-start: 5%;
+}
+
+.cont-footer{
+    margin-block-start: 1.5%;
+}
 /*FIN Gorka footer*/
 /*************************************************************************************/
