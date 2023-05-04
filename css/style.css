@@ -106,7 +106,7 @@ footer {
     justify-content: center;
 }
 
-.btn-modal {
+#btn-modal {
     width: 100%;
     height: 100%;
     color: #ffffff;
@@ -282,8 +282,195 @@ footer {
 
 
 /*************************************************************************************/
+/*INICIO Gorka MODAL*/
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(153, 153, 153, 0.747);
+    pointer-events: none;
+    opacity: 0;
+}
 
+.show {
+    pointer-events: auto;
+    opacity: 1;
+} 
 
+.modal {
+    width: 35%;
+    height: 99vh;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0.5%;
+    left: 30%;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgba(248, 38, 167, 0.8);
+}
+
+.title-modal {
+    height: 20vh;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.logo-modal {
+    width: 28%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.close-modal {
+    width: 5vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+}
+
+#btn-close {
+    width: 2vw;
+    height: 4vh;
+}
+
+/*INICIO Form Modal*/
+
+.registrar-modal {
+    height: 65vh;
+    width: 20vw;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+
+}
+
+.registrar-modal h2 {
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lCorreo {
+    position: absolute;
+    top: 12%;
+    font-size: 18px;
+}
+
+.registrar-modal input,
+.registrar-modal button {
+    width: 100%;
+    min-height: 38px;
+    border-radius: 15px;
+    border: 0;
+}
+
+#iCorreo {
+    position: absolute;
+    top: 18%;
+}
+
+.lPass {
+    position: absolute;
+    top: 30%;
+    font-size: 18px;
+}
+
+#iPass {
+    position: absolute;
+    top: 36%;
+}
+
+#nocontra {
+    position: absolute;
+    top: 47%;
+    left: 13%;
+    color: #000000;
+}
+
+/*BOTONES modal*/
+.btn-ses {
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    background-color: rgb(235, 31, 31);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.o {
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    font-size: 16px;
+}
+
+.google {
+    position: absolute;
+    top: 71%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.google:hover {
+    background: #e7e7e7;
+}
+
+.logo-google {
+    width: 10%;
+    font-size: 16px;
+}
+
+.registro {
+    position: absolute;
+    top: 85%;
+    background-color: rgb(0, 81, 255);
+}
+
+#btn-registro {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+/*FIN Form modal*/
+.letr-peq {
+    width: 80%;
+    height: 13vh;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.politicas {
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+
+.politicas:hover {
+    text-decoration: underline;
+}
+
+/*FIN Gorka MODAL*/
 /*INICIO Gorka footer*/
 .div-footer {
     width: 100%;
