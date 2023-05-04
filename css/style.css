@@ -137,16 +137,40 @@ footer {
     height: 80px;
     background-color: blue;
     color: aliceblue;
-    font-size: 2em;
+    font-size: 2.5em;
 }
+
 #textopropaganda{
-    width: 90%;
+    width: 85%;
+    margin-left: 5%;
 }
 #imgpropaganda{
-    width: 10%;
-    height: 60px;
+    width: 5%;
+    height: 50px;
     background-image: url(../images/svg-image2.png);
     background-size: 100% 100%;
+}
+
+.contalexprop2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color:yellow;
+    color: black;
+    font-size: 2.5em;
+}
+
+#textopropaganda2{
+    width: 85%;
+    margin-left: 5%;
+}
+#imgpropaganda2{
+    width: 5%;
+    height: 50px;
+    background-image: url(../images/svg-image.png);
+    background-size: 100% 100%;
+    
 }
 
 .contalexdiv{
@@ -159,27 +183,27 @@ footer {
 }
 #imagenfondogps{
 width: 100%;
-height: 300px;
+height: 400px;
 background-image: url(../images/450_1000.webp);
 background-size: 100% 100%;
 
 }
 #cpostal{
     width:100%;
-    height: 200px;
+    height: 250px;
     background-image: url(../images/Sin\ título1.png);
     background-size: 100% 100%;
 }
 
 #aplicaciones{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url(../images/Sin\ título.png);
     background-size: 100% 100%;
 }
 #imagenfondoapp{
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-image: url(../images/banner-app.0e396ff37038.png);
     background-size: 100% 100%;
 }
