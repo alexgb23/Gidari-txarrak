@@ -1,108 +1,89 @@
-/* Inicio Comandos Generales*/
+/* INICIO contenido generales*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.general{
+
+.container-principal {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/*FIN contenido generales*/
+/**/
+/*INICIO section="general" index.html*/
+
+.general {
     display: flex;
 }
 
-.contendor-general {
-    width: 90%;
-    
-   
-}
-
-.cabeceraGK {
-    width: 100%;
-    height: 12vh;
-    position: fixed;
-    background-color: white;
- 
-}
-header{
-    width: 100%;
-    position: relative;
-}
-#logo{
-    width: 8%;
-    height: 10vh;
-    background-image: url(../images/Logo.png);
-    background-size: 100% 100%;
-}
-nav{
-    width: 60%;
-}
-
-.cabe-div{
-    width: 100%;
-    display: flex;
-    align-content: center;
-    align-items: center;
-   
-
-
-}
-
-
-.contenedor-main {
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-}
-
-aside {
-    width: 10%; 
+/***************************************************************/
+/* INICIO Gorka aside*/
+.desplegable {
+    width: 10%;
     background-color: black;
 }
 
-.contenedor {
-    width: 100%;
-    background-color: beige;
+.cont-flecha {
+    position: fixed;
+    top: 350px;
+    left: 30px
 }
 
-
-footer {
-    width: 100%;
-    height: 5vh;
-
+.cont-flecha img {
+    width: 70%;
 }
 
-/* FIN Comandos Generales*/
+.menu-des {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.menu-des:hover {
+    scale: 450% 100%;
+    position: relative;
+    background-color: black;
+    z-index: 100;
+    transition: 200ms;
+}
+/* FIN Gorka aside*/
+/***************************************************************/
+
+.contendor-general {
+    width: 90%;
+}
+
 /***************************************************************/
 /* Inicio Gorka header*/
+.cabeceraGK {
+    width: 90%;
+    height: 14vh;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .img-corp {
     width: 6vw;
     height: 10vh;
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    background-color: orange;
+    margin-block-start: 1%;
 }
 
 .logo {
-    width: 80%;
+    width: 100%;
+    height: 10vh;
 }
 
 .navegador {
-    width: 60%;
-  
-    background-color: aqua;
-}
-
-.list-nav {
-    width: 100%;
-    height: 2.2em;
+    width: 75%;
     display: flex;
-    justify-content: center;
-}
-
-.list-menu {
-    width: 40%;
-    list-style: none;
-    margin: auto;
+    flex-wrap: row wrap;
+    justify-content: flex-end;
+    gap: 1em;
+    align-items: center;
 }
 
 .menu {
@@ -111,18 +92,13 @@ footer {
     text-decoration: none;
     color: black;
     font-weight: 900;
-    letter-spacing: 0.5px;
-    position: relative;
-    margin: auto;
 }
-
 
 .ini-ses {
     width: 10%;
-    height: 8vh;
-  
+    height: 6vh;
+    margin-block-start: 2%;
 }
-
 
 #btn-modal {
     width: 100%;
@@ -135,36 +111,19 @@ footer {
 
 /*Fin Gorka header*/
 /*************************************************************************************/
-/* INICIO Gorka aside*/
-aside{
-    cursor: pointer;
-    width: 10%; 
-    background-color: black;
-  
+.contenedor-main {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
 }
 
-aside:hover{
-   scale:450% 100%;
-    position: relative;
-    background-color: black;
-    z-index:200;
-    transition: 200ms;
+.contenedor {
+    width: 100%;
+    background-color: beige;
+    margin-block-start: 7.5%;
 }
-
-picture{
-    position: fixed;
-    top: 400px;
-    left:30px
-}
-
-picture img{
-width: 70%;
-
-}
-
-/* FIN Gorka aside*/
 /*************************************************************************************/
-/*INICIO section1 Chaimae*/
+/*INICIO section Chaimae*/
 .chaimae {
     width: 100%;
     height: 500px;
@@ -190,7 +149,7 @@ width: 70%;
 .txt1,
 .txt2 {
     width: 49%;
-    
+
 }
 
 
@@ -200,19 +159,11 @@ width: 70%;
     background-size: cover;
 }
 
-
-
-
-
 /*FIN section1 Chaimae*/
-
-
 
 /***********************************************************/
 
-
-
-/*INICIO section2 Alex*/
+/*INICIO section Alex*/
 
 #enlacesa {
     width: 50%;
@@ -232,10 +183,9 @@ width: 70%;
 
 .contalex {
     display: flex;
-   
 }
 
-.contalexprop{
+.contalexprop {
     display: flex;
     align-items: center;
     width: 100%;
@@ -282,21 +232,22 @@ width: 70%;
 
 .contalexdiv {
     width: 50%;
-    
+
 }
 
 .contalexdiv1 {
     width: 50%;
-   
+
 }
 
 #imagenfondogps {
     width: 100%;
     height: 400px;
-    
+
 
 }
-iframe{
+
+iframe {
     width: 100%;
     height: 100%;
 }
@@ -322,12 +273,10 @@ iframe{
     background-size: 100% 100%;
 }
 
-
-
 /*FIN section2 Alex*/
 
+/***********************************************************/
 
-/*************************************************************************************/
 /*INICIO Gorka MODAL*/
 .modal-container {
     width: 100vw;
@@ -343,7 +292,7 @@ iframe{
 .show {
     pointer-events: auto;
     opacity: 1;
-} 
+}
 
 .modal {
     width: 35%;
@@ -517,8 +466,11 @@ iframe{
 }
 
 /*FIN Gorka MODAL*/
-/*INICIO Gorka footer*/
-.slider-muertos{
+
+/***********************************************************/
+
+/*Inicio slider Alex*/
+.slider-muertos {
     width: 100%;
     height: 10vh;
     background-color: black;
@@ -526,41 +478,49 @@ iframe{
     font-size: 2em;
     display: flex;
     align-items: center;
-   
-}
-span{
-    font-weight: 600;
 }
 
-.div-footer {
+span {
+    font-weight: 600;
+}
+/*FIN slider Alex*/
+
+/***********************************************************/
+
+/*INICIO Gorka footer*/
+.pie-pag {
     width: 100%;
-    margin-block-start: 2em;
-    margin-block-end: 2em;
+    height: 15vh;
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 .img-corp-down {
     width: 6vw;
     height: 10vh;
-
+    margin-block-start: 0.8em;
 }
 
 .inf-footer {
     width: 50%;
+    margin-block-start: 2em;
 }
 
-.list-footer{  
+.list-footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
 
-.list-legal{
-    text-decoration: none; 
-    margin-block-start: 1%;  
+.list-legal {
+    text-decoration: none;
 }
+
+.cont-footer{
+    margin-block-start: 1.5em;
+}
+
 /*FIN Gorka footer*/
 /*************************************************************************************/
+/*FIN index.html*/
