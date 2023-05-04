@@ -10,17 +10,41 @@
 
 .contendor-general {
     width: 90%;
-    margin: 0 auto;
-    position: relative;
+    
+   
 }
 
 .cabeceraGK {
     width: 100%;
-    height: 10vh;
-    position: relative;
-    display: flex;
+    height: 12vh;
+    position: fixed;
+    background-color: white;
+ 
+}
+header{
+    width: 100%;
     position: relative;
 }
+#logo{
+    width: 8%;
+    height: 10vh;
+    background-image: url(../images/Logo.png);
+    background-size: 100% 100%;
+}
+nav{
+    width: 60%;
+}
+
+.cabe-div{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+   
+
+
+}
+
 
 .contenedor-main {
     width: 100%;
@@ -46,15 +70,8 @@ footer {
 }
 
 /* FIN Comandos Generales*/
-/*************************************************************************************/
+/***************************************************************/
 /* Inicio Gorka header*/
-.cabe-prin {
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    position: relative;
-}
-
 
 .img-corp {
     width: 6vw;
@@ -62,6 +79,7 @@ footer {
     position: absolute;
     top: 5%;
     left: 10%;
+    background-color: orange;
 }
 
 .logo {
@@ -69,10 +87,9 @@ footer {
 }
 
 .navegador {
-    width: 40%;
-    position: absolute;
-    top: 30%;
-    right: 15%;
+    width: 60%;
+  
+    background-color: aqua;
 }
 
 .list-nav {
@@ -101,19 +118,16 @@ footer {
 
 
 .ini-ses {
-    width: 8%;
-    height: 40%;
-    position: absolute;
-    right: 5%;
-    top: 35%;
-    display: flex;
-    justify-content: center;
+    width: 10%;
+    height: 8vh;
+  
 }
+
 
 #btn-modal {
     width: 100%;
     height: 100%;
-    color: #ffffff;
+    color: white;
     background-color: rgb(241, 98, 2);
     border: 0;
     border-radius: 25px;
