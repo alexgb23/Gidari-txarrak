@@ -201,75 +201,70 @@ aside a:hover{
  }
 
   .txt1{
-   
-    display: flex;
-    justify-content:center;
-    align-content: center;
-    flex-wrap: wrap;
     width: 50%;
     height: 400px;
     background-color: yellow; 
+    
   
 }
 
 .txt1 a{
     width: 40%;
-    height: 50px;
     border: 2px solid black;
-    border-radius: 15px;
-    padding: 1.5%;
-    margin: 3%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2.5%;
     color: rgb(0, 3, 5);
     font-size: 1.5em;
     display: flex;
    justify-content: center;
+   transition: 0.5s;
 } 
 .txt1 a:hover{
     width: 40%;
-    height: 50px;
     border: 2px solid black;
     background-color: black;
-    border-radius: 15px;
-    padding: 1.5%;
-    margin: 3%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2.5%;
     color: white;
     font-size: 1.5em;
     display: flex;
    justify-content: center;
 }
-
+.txt1 h1{
+    font-size: 2.5em;
+}
 
 
 .txt2{
-    display: flex;
-    justify-content:center;
-    align-content: center;
-    flex-wrap: wrap;
     width: 50%;
     height: 400px;
     background-color: yellow; 
-   
+}
+.txt2 h1{
+    font-size: 2.5em;
 }
 .txt2 a{
     width: 40%;
-    height: 50px;
     border: 2px solid black;
-    border-radius: 15px;
-    padding: 1.5%;
-    margin: 3%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2.5%;
     color: rgb(0, 3, 5);
     font-size: 1.5em;
     display: flex;
    justify-content: center;
+   transition: 0.5s;
+ 
 } 
 .txt2 a:hover{
     width: 40%;
-    height: 50px;
     border: 2px solid black;
     background-color: black;
-    border-radius: 15px;
-    padding: 1.5%;
-    margin: 3%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2.5%;
     color: white;
     font-size: 1.5em;
     display: flex;
@@ -292,6 +287,17 @@ aside a:hover{
     background-size: 100% 100%;
 }
 
+#imgauto{
+    margin-left: 3%;
+    margin-bottom: 1%;
+   
+ }
+ 
+#imgmoto{
+    margin-left: 3%;
+    margin-bottom: 1%;
+   
+ }
 
 /*FIN section1 Chaimae*/
 
@@ -413,7 +419,7 @@ iframe {
 }
 h1{
     margin: 4%;
-    font-size: 3em;
+    font-size: 2.5em;
    
 }
 .vinculos{
