@@ -124,13 +124,21 @@ aside a:hover{
     align-items: center;
 }
 
-.menu {
-    width: 100%;
-    font-size: 1em;
+.menu{
+    font-size: 2em;
     text-decoration: none;
     color: black;
-    font-weight: 900;
+    font-weight: 500;
 }
+.menu:hover{
+    width: 100%;
+    font-size:2em;
+    text-decoration:underline;
+    color: black;
+    font-weight: 500;
+}
+
+
 
 .ini-ses {
     width: 10%;
@@ -219,6 +227,7 @@ aside a:hover{
     display: flex;
    justify-content: center;
    transition: 0.5s;
+   text-decoration: none;
 } 
 .txt1 a:hover{
     width: 40%;
@@ -256,6 +265,7 @@ aside a:hover{
     display: flex;
    justify-content: center;
    transition: 0.5s;
+   text-decoration: none;
  
 } 
 .txt2 a:hover{
@@ -445,6 +455,7 @@ flex-wrap: wrap;
     display: flex;
    justify-content: center;
    transition: 0.5s;
+   text-decoration: none;
 } 
 .vinculosalex a:hover{
     width: 40%;
