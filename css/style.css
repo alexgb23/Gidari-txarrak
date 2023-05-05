@@ -145,11 +145,12 @@ aside a:hover{
     background-color: rgb(241, 98, 2);
     border: 0;
     border-radius: 25px;
+    transition: 0.5s;
 }
 #btn-modal:hover{
     width: 100%;
     height: 100%;
-    color: white;
+    color: rgb(209, 206, 206);
     font-size: 18px;
     font-style: italic;
     background-color: rgb(211, 86, 2);
@@ -170,7 +171,6 @@ aside a:hover{
 
 .contenedor {
     width: 100%;
-    background-color: beige;
     margin-block-start: 7.5%;
 }
 /*************************************************************************************/
@@ -377,6 +377,52 @@ iframe {
     background-image: url(../images/banner-app.0e396ff37038.png);
     background-size: 100% 100%;
 }
+.vinculosalex{
+    width: 50%;
+    height: 500px;
+  
+}
+h1{
+    margin: 4%;
+    font-size: 3em;
+   
+}
+.vinculos{
+display: flex;
+justify-content:center;
+align-content: center;
+flex-wrap: wrap;
+}
+#imgcamion{
+   margin-left: 3%;
+   margin-bottom: 1%;
+  
+}
+
+.vinculosalex a{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2.8%;
+    color: rgb(0, 3, 5);
+    font-size: 1.5em;
+    display: flex;
+   justify-content: center;
+   transition: 0.5s;
+} 
+.vinculosalex a:hover{
+    width: 40%;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2.8%;
+    color:white;
+    font-size: 1.5em;
+    display: flex;
+   justify-content: center;
+} 
 
 /*FIN section Alex*/
 
