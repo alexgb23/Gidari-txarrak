@@ -24,7 +24,7 @@
 .desplegable {
     width: 10%;
     background-color: black;
-   
+
 }
 
 .cont-flecha {
@@ -41,8 +41,8 @@
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0);
-  position: relative;
- 
+    position: relative;
+
 }
 
 .menu-des:hover {
@@ -51,15 +51,18 @@
     z-index: 100;
     transition: 1s;
 }
-aside li{
+
+aside li {
     visibility: hidden;
     list-style: none;
     border: 1px solid white;
 
 }
-aside a{
+
+aside a {
     font-size: 2em;
 }
+
 /* FIN Gorka aside*/
 /***************************************************************/
 
@@ -135,6 +138,7 @@ aside a{
     background-color: beige;
     margin-block-start: 7.5%;
 }
+
 /*************************************************************************************/
 /*INICIO section Chaimae*/
 .chaimae {
@@ -483,48 +487,53 @@ iframe {
 /***********************************************************/
 
 /*Inicio slider Alex*/
-:root{
-    
-    --move-initial: calc(5% );
-    --move-final: calc(-50% );
-  }
-  
-  .marquee {
+:root {
+
+    --move-initial: calc(5%);
+    --move-final: calc(-50%);
+}
+
+.marquee {
     width: 100%;
     height: 10vh;
     background-color: black;
     color: white;
     font-size: 2em;
-    display:flex;
+    display: flex;
     align-items: center;
-    
- 
+
+
     text-transform: uppercase;
     overflow: hidden;
-    &.running .marquee-inner{
-      animation-play-state: running
+
+    &.running .marquee-inner {
+        animation-play-state: running
     }
 
-  }
-  span {
+}
+
+span {
     white-space: nowrap;
-  }
-  .marquee-inner {
+}
+
+.marquee-inner {
     width: max-content;
     position: relative;
     animation: marquee 20s linear infinite;
-    
-    
-  }
-  
-  @keyframes marquee {
-      0% {
-          transform: translateX(var(--move-initial))
-      }
-      100% {
-          transform: translateX(var(--move-final))
-      }
-  }
+
+
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(var(--move-initial))
+    }
+
+    100% {
+        transform: translateX(var(--move-final))
+    }
+}
+
 /*FIN slider Alex*/
 
 /***********************************************************/
@@ -535,6 +544,7 @@ iframe {
     height: 15vh;
     display: flex;
     justify-content: space-evenly;
+    background-color: white;
 }
 
 .img-corp-down {
@@ -559,7 +569,7 @@ iframe {
     text-decoration: none;
 }
 
-.cont-footer{
+.cont-footer {
     margin-block-start: 1.5em;
 }
 
@@ -571,8 +581,83 @@ iframe {
 /**/
 /*INICIO reserva.html*/
 
-.container-reserva{
+.container-reserva {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
+    background-color: #CC8FD2;
+}
+
+.cabe-reser {
+    width: 100%;
+    height: 14vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenido-reserva {
+    width: 100%;
+    height: 65vh;
+}
+
+.mes-reserva {
+    margin-inline: 45.5%;
+    margin-top: 4%;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#mes {
+    margin-inline-start: 5%;
+    font-size: 3em;
+    color: white;
+
+}
+
+.art-reser {
+    width: 60%;
+    margin: 3% 21% 0 21%;
+}
+
+.table-reser { 
+    width: 100%;
+    height: 60%;
+    margin-block-start: 2%;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.table-finde{
+    color: rgb(188, 22, 22);
+}
+
+.table-col:hover{
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+/*Botones*/
+.botonera {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 5%;
+}
+
+.btn-horas{
+    width: 15%;
+    padding: 1% 1% 1% 5%;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-siguiente{
+    width: 15%;
+    padding: 1%;
+    border-radius: 8px;
+    background-color: rgb(183, 222, 43);
+    border: none;
 }
