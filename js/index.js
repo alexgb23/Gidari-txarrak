@@ -10,3 +10,20 @@ openModal.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
     modalCont.classList.remove('show');
 });
+
+
+
+/*aside-lateral*/
+function entrar(){ 
+
+    document.getElementById('lateral').style.display="block";
+    document.getElementById('flecha').style.visibility="hidden"
+}
+
+function salir(){ 
+
+    document.getElementById('lateral').style.display="none";
+    document.getElementById('flecha').style.visibility="visible"
+}
+
+
