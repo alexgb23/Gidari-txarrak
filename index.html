@@ -13,16 +13,18 @@
     <section class="container-principal">
         <section class="general">
             <aside class="desplegable">
-                <div class="menu-des">
-                    <picture class="cont-flecha">
+                <div class="menu-des" onmouseenter="entrar()" onmouseleave="salir()">
+                    <picture class="cont-flecha" id="flecha" style="visibility: visible;">
                         <img src="images/svg-image2.png" alt="flecha lateral que señala un despliegue">
                     </picture>
-                    <ol>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">dcdfbb</a></li>
-                        <li><a href="">dfbvxxvfdegf</a></li>
-                        <li><a href="">dvfcsdcsc</a></li>
+                    <div class="divDetalles" id="lateral" style="display: none;">
+                    <ol  id="aside-lateral" >
+                        <li><a href="#">¿Quiénes somos?</a></li>
+                        <li><a href="#">¿Dónde estamos?</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Contacto</a></li>
                     </ol>
+                </div>
                 </div>
             </aside>
             <section class="contendor-general">
@@ -44,7 +46,7 @@
                 <main class="contenedor-main">
                     <div class="contenedor">
 
-                        
+
                         <section class="chaimae">
                    
                             <article class="art1">
