@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    flex-wrap: wrap;
+   
 }
+
 
 .container-principal {
     width: 100%;
-    height: 100vh;
-    margin: 0 auto;
+ 
 }
 
 /*FIN contenido generales*/
@@ -16,6 +18,7 @@
 /*INICIO section="general" index.html*/
 
 .general {
+    width: 100%;
     display: flex;
 }
 
@@ -29,12 +32,12 @@
 
 .cont-flecha {
     position: fixed;
-    top: 350px;
+    top: 23vw;
     left: 30px
 }
 
 .cont-flecha img {
-    width: 70%;
+    width: 6vw;
 }
 
 .menu-des {
@@ -46,7 +49,7 @@
 }
 
 .menu-des:hover {
-    width: 350px;
+    width: 23vw;
     background-color: black;
     z-index: 100;
     transition: 1ms;
@@ -67,9 +70,9 @@ aside li{
 
 
 aside a{
-    font-size: 1.8em;
+    font-size: 1.8vw;
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 15vw;
     border: 1px solid white;
     white-space:nowrap;
     padding-inline:10%;
@@ -120,19 +123,24 @@ aside a:hover{
     display: flex;
     flex-wrap: row wrap;
     justify-content: flex-end;
-    gap: 1em;
+    gap: 1rem;
     align-items: center;
 }
 
 .menu{
-    font-size: 2em;
+    font-size: 2vw;
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
+
+.iconos-responsive{
+    display: none;
+}
+
 .menu:hover{
     width: 100%;
-    font-size:2em;
+    font-size:2vw;
     text-decoration:underline;
     color: black;
     font-weight: 500;
@@ -150,25 +158,28 @@ aside a:hover{
     width: 100%;
     height: 100%;
     color: white;
-    font-size: 18px;
+    font-size: 1.4vw;
     font-style: italic;
     background-color: rgb(241, 98, 2);
     border: 0;
-    border-radius: 25px;
+    border-radius: 25vw;
     transition: 0.5s;
 }
 #btn-modal:hover{
     width: 100%;
     height: 100%;
     color: rgb(209, 206, 206);
-    font-size: 18px;
+    font-size: 1.4vw;
     font-style: italic;
     background-color: rgb(211, 86, 2);
     box-shadow: 10px 5px 5px rgb(96, 39, 1);
-    border-radius: 25px;
+    border-radius: 25vw;
     cursor: pointer;
 }
 
+.btn-modal-responsive{
+    display: none;
+}
 
 
 /*Fin Gorka header*/
@@ -186,20 +197,25 @@ aside a:hover{
 
 /*************************************************************************************/
 /*INICIO section Chaimae*/
+.chaimae img{
+    width: 8vw;
+}
+.flecharedonda{
+    display: none;
+}
+
 .art1 {
     width: 100%;
-    height: 400px;
+    height: 60.15vh;
     display: flex;
-    
-  
+
 }
 
 .art2 {
     width: 100%;
-    height: 400px;
+    height: 60.15vh;
     display: flex;
-    
-  
+
 }
 .img1 {
     width: 50%;
@@ -210,7 +226,6 @@ aside a:hover{
 
   .txt1{
     width: 50%;
-    height: 400px;
     background-color: yellow; 
     
   
@@ -218,12 +233,13 @@ aside a:hover{
 
 .txt1 a{
     width: 40%;
+    height: 6vh;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 20vw;
     padding: 1%;
     margin: 2.5%;
     color: rgb(0, 3, 5);
-    font-size: 1.5em;
+    font-size: 1.5vw;
     display: flex;
    justify-content: center;
    transition: 0.5s;
@@ -231,37 +247,38 @@ aside a:hover{
 } 
 .txt1 a:hover{
     width: 40%;
+    height: 6vh;
     border: 2px solid black;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 20vw;
     padding: 1%;
     margin: 2.5%;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     display: flex;
    justify-content: center;
 }
 .txt1 h1{
-    font-size: 2.5em;
+    font-size: 2.5vw;
 }
 
 
 .txt2{
     width: 50%;
-    height: 400px;
     background-color: yellow; 
 }
 .txt2 h1{
-    font-size: 2.5em;
+    font-size: 2.5vw;
 }
 .txt2 a{
     width: 40%;
+    height: 6vh;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 20vw;
     padding: 1%;
     margin: 2.5%;
     color: rgb(0, 3, 5);
-    font-size: 1.5em;
+    font-size: 1.5vw;
     display: flex;
    justify-content: center;
    transition: 0.5s;
@@ -270,13 +287,14 @@ aside a:hover{
 } 
 .txt2 a:hover{
     width: 40%;
+    height: 6vh;
     border: 2px solid black;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 20vw;
     padding: 1%;
     margin: 2.5%;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     display: flex;
    justify-content: center;
 }
@@ -317,7 +335,7 @@ aside a:hover{
 
 #enlacesa {
     width: 50%;
-    height: 500px;
+    height: 75.2vh;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -326,23 +344,33 @@ aside a:hover{
 
 #imagenfondo {
     width: 50%;
-    height: 500px;
+    height: 75.2vh;
     background-image: url(../images/Camiones_de_carreras_06-650x366.jpg);
     background-size: 100% 100%;
 }
-
+.contgralalex{
+    width: 100%;
+    display: flex;
+}
 .contalex {
     display: flex;
+}
+.contalexdos{
+    display: flex;
+}
+
+.flecharedondal{
+    display: none;
 }
 
 .contalexprop {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 12.0vh;
     background-color: blue;
     color: aliceblue;
-    font-size: 2.5em;
+    font-size: 2.5vw;
 }
 
 #textopropaganda {
@@ -352,19 +380,25 @@ aside a:hover{
 
 #imgpropaganda {
     width: 5%;
-    height: 50px;
+    height: 7.5vh;
     background-image: url(../images/svg-image2.png);
     background-size: 100% 100%;
+}
+.imgapk{
+    display: none;
+}
+.imgflaca{
+    display: none;
 }
 
 .contalexprop2 {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 80px;
+    height: 12.0vh;
     background-color: yellow;
     color: black;
-    font-size: 2.5em;
+    font-size: 2.5vw;
 }
 
 #textopropaganda2 {
@@ -374,7 +408,7 @@ aside a:hover{
 
 #imgpropaganda2 {
     width: 5%;
-    height: 50px;
+    height: 7.5vh;
     background-image: url(../images/svg-image.png);
     background-size: 100% 100%;
 
@@ -392,9 +426,7 @@ aside a:hover{
 
 #imagenfondogps {
     width: 100%;
-    height: 400px;
-
-
+    height: 60.15vh;
 }
 
 iframe {
@@ -404,70 +436,81 @@ iframe {
 
 #cpostal {
     width: 100%;
-    height: 250px;
+    height: 37.6vh;
     background-image: url(../images/Sin\ título1.png);
     background-size: 100% 100%;
 }
 
 #aplicaciones {
     width: 100%;
-    height: 250px;
+    height: 37.6vh;;
     background-image: url(../images/Sin\ título.png);
     background-size: 100% 100%;
 }
 
 #imagenfondoapp {
     width: 100%;
-    height: 400px;
+    height: 60.15vh;
     background-image: url(../images/banner-app.0e396ff37038.png);
     background-size: 100% 100%;
 }
 .vinculosalex{
     width: 50%;
-    height: 500px;
-  
+    height: 75.2vh;  
 }
+
+.imagenes-juntasalex{
+    display: none;
+}
+
 h1{
     margin: 4%;
-    font-size: 2.5em;
+    font-size: 2.5vw;
    
 }
 .vinculos{
 display: flex;
 justify-content:center;
 align-content: center;
-flex-wrap: wrap;
+
+
 }
 #imgcamion{
+    width: 8vw;
    margin-left: 3%;
-   margin-bottom: 1%;
-  
 }
+
+
 
 .vinculosalex a{
     width: 40%;
+    height: 6vh;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 20vw;
     padding: 1%;
     margin: 2.8%;
     color: rgb(0, 3, 5);
-    font-size: 1.5em;
-    display: flex;
+    font-size: 1.5vw;
+    display:flex;
    justify-content: center;
    transition: 0.5s;
    text-decoration: none;
+
 } 
+
 .vinculosalex a:hover{
     width: 40%;
+    height: 6vh;
     background-color: black;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 20vw;
     padding: 1%;
     margin: 2.8%;
     color:white;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     display: flex;
    justify-content: center;
+   
 } 
 
 /*FIN section Alex*/
@@ -646,7 +689,7 @@ flex-wrap: wrap;
 /*FIN Form modal*/
 .letr-peq {
     width: 80%;
-    height: 13vh;
+    height: 13px;
     display: flex;
     flex-flow: column;
     text-align: center;
@@ -678,7 +721,7 @@ flex-wrap: wrap;
     height: 10vh;
     background-color: black;
     color: white;
-    font-size: 2em;
+    font-size: 2vw;
     display: flex;
     align-items: center;
 
@@ -723,19 +766,22 @@ span {
     width: 100%;
     height: 15vh;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+  justify-content: space-around;
     background-color: white;
+    font-size: 1.5vw;
+
 }
 
 .img-corp-down {
     width: 6vw;
     height: 10vh;
-    margin-block-start: 0.8em;
+    margin-block-start: 0.8rem;
 }
 
 .inf-footer {
-    width: 50%;
-    margin-block-start: 2em;
+    width: 60%;
+    margin-block-start: 2rem;
 }
 
 .list-footer {
@@ -743,6 +789,7 @@ span {
     display: flex;
     justify-content: space-between;
     list-style: none;
+
 }
 
 .list-legal {
@@ -750,7 +797,7 @@ span {
 }
 
 .cont-footer {
-    margin-block-start: 1.5em;
+    margin-block-start: 1.5rem;
 }
 
 /*FIN Gorka footer*/
@@ -790,7 +837,7 @@ span {
 
 #mes {
     margin-inline-start: 5%;
-    font-size: 3em;
+    font-size: 3rem;
     color: white;
 
 }
@@ -804,7 +851,7 @@ span {
     width: 100%;
     height: 60%;
     margin-block-start: 2%;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     color: white;
 }
@@ -840,4 +887,868 @@ span {
     border-radius: 8px;
     background-color: rgb(183, 222, 43);
     border: none;
+}
+
+
+
+
+
+/***********************************************************************************************************************************/
+/***********************************************************************************************************************************/
+/***********************************************************************************************************************************/
+
+
+
+@media (max-width: 768px){
+
+
+    .container-principal {
+        width: 100%;
+     
+    }
+    
+    /*FIN contenido generales*/
+    /**/
+    /*INICIO section="general" index.html*/
+    
+    .general {
+        width: 100%;
+        display: flex;
+    }
+
+    
+    /***************************************************************/
+    /* INICIO Gorka aside*/
+    aside{
+        display: none;
+    }
+    /***************************************************************/
+    /* Inicio Gorka header*/
+    .cabeceraGK {
+        width: 100%;
+        height: 12vh;
+        position: fixed;
+        background-color:black;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .img-corp {
+        width: 14vw;
+        height: 10vh;
+        margin-block-start: 1%;
+    }
+    
+    .logo {
+        width: 50%;
+        height: 10vh;
+        margin-inline-start: 50%;
+    }
+    
+    .navegador {
+        width: 65%;
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-end;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .menu{
+       display: none;
+    }
+    .iconosnav{
+        width: 25vw;
+        height: 11vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    #wassap{
+        width:5vw;
+        height: 6vh;
+        background-image:url(../images/svg-image11.png);
+        background-size:100% 100%;
+    }
+    #telefono{
+        width: 5vw;
+        height: 6vh;
+        background-image:url(../images/svg-image20.png);
+        background-size: 100% 100%;
+    }
+
+    .ini-ses {
+        width:8vw;
+        height: 8vh;
+        margin-block-start: 2%;
+        background-image:url(../images/54630ico.png);
+        background-size:100% 100%;
+    }
+    #btn-modal {
+        display: none;
+      
+    }
+   
+  
+    /*Fin Gorka header*/
+    /*************************************************************************************/
+    .contenedor-main {
+        width: 111%;
+        display: flex;
+        flex-flow: row;
+      
+    }
+    
+    .contenedor {
+        width: 100%;
+        margin-block-start:9%;
+    }
+    
+    /*************************************************************************************/
+    /*INICIO section Chaimae*/
+    .chaimae img{
+        width: 8vw;
+    }
+    
+    .art1 {
+        width: 100%;
+        height: 60.15vh;
+        display: flex;
+    
+    }
+    
+    .art2 {
+        width: 100%;
+        height: 60.15vh;
+        display: flex;
+    
+    }
+    .img1 {
+        width: 50%;
+        background-image: url(../images/1.png);
+        background-size:100% 100%;
+        
+     }
+    
+      .txt1{
+        width: 50%;
+        background-color: yellow; 
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+      
+    }
+    
+    .txt1 a{
+        display: none;
+        width: 40%;
+        height: 6vh;
+        border: 2px solid black;
+        border-radius: 20vw;
+        padding: 1%;
+        margin: 2.5%;
+        color: rgb(0, 3, 5);
+        font-size: 1.5vw;
+       justify-content: center;
+       transition: 0.5s;
+       text-decoration: none;
+    } 
+    .txt1 a:hover{
+        width: 40%;
+        height: 6vh;
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 20vw;
+        padding: 1%;
+        margin: 2.5%;
+        color: white;
+        font-size: 1.5vw;
+        
+       justify-content: center;
+    }
+    .txt1 h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vw;
+    }
+    
+    
+    .txt2{
+        width: 50%;
+        background-color: yellow; 
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .txt2 h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vw;
+    }
+    .txt2 a{
+        display: none;
+        width: 40%;
+        height: 6vh;
+        border: 2px solid black;
+        border-radius: 20vw;
+        padding: 1%;
+        margin: 2.5%;
+        color: rgb(0, 3, 5);
+        font-size: 1.5vw;
+       justify-content: center;
+       transition: 0.5s;
+       text-decoration: none;
+     
+    } 
+    .txt2 a:hover{
+        width: 40%;
+        height: 6vh;
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 20vw;
+        padding: 1%;
+        margin: 2.5%;
+        color: white;
+        font-size: 1.5vw;
+        display: flex;
+       justify-content: center;
+    }
+    
+       
+    
+    .img2 {
+        width: 50%;
+        background-image: url(../images/MOTO1.jpg);
+        background-size:100% 100%;
+      
+    }
+    
+    .prop{
+        width: 100%;
+        height: 25vh;
+        background-image: url(../images/Sin\ título3.png);
+        background-size: 100% 100%;
+    }
+    .imagenes-juntas{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+       
+    }
+    
+    #imgauto{
+        width: 22vw;
+        height: auto;
+       
+     }
+     .flecharedonda{
+        display: flex;
+        width: 40%;
+        margin-right: 5%;
+       
+     }
+    #imgmoto{
+        width: 18vw;
+        height: auto;
+    
+     }
+    
+    /*FIN section1 Chaimae*/
+    
+    /***********************************************************/
+    
+    /*INICIO section Alex*/
+    
+    #enlacesa {
+        width: 50%;
+        height: 75.2vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #imagenfondo {
+        width: 50%;
+        height: 75.2vh;
+       
+    }
+   .flecharedondal{
+    display: flex;
+    width: 8%;
+    height: 8%;
+   margin: 3%;
+   }
+
+   .imagenes-juntasalex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+.imagenes-juntasalex h2{
+    display: flex;
+    margin: 0 auto;
+    font-size: 10vw;
+   
+}
+.contalexdos{
+    display: none;
+}
+
+    .contgralalex{
+        display: none;
+    }
+    .imgapk{
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        background-image: url(../images/Sin\ título.png);
+        background-size: 100% 100%;
+    }
+    .imgflaca{
+        display: flex;
+        width: 100%;
+        height: 15vh;
+        background-image: url(../images/Sin\ título3.png);
+        background-size: 100% 100%;
+    }
+    
+    .contalex {
+        display: flex;
+        width: 100%;
+        height: 75.2vh;;
+        background-image: url(../images/Camiones_de_carreras_06-650x366.jpg);
+        background-size: 100% 100%;
+        
+    }
+    
+    .contalexprop {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 12.0vh;
+        background-color: blue;
+        color: aliceblue;
+        font-size: 2.5vw;
+    }
+    
+    #textopropaganda {
+        width: 85%;
+        margin-left: 5%;
+    }
+    
+    #imgpropaganda {
+        width: 5%;
+        height: 7.5vh;
+        background-image: url(../images/svg-image2.png);
+        background-size: 100% 100%;
+    }
+    
+    .contalexprop2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 12.0vh;
+        background-color: yellow;
+        color: black;
+        font-size: 2.5vw;
+    }
+    
+    #textopropaganda2 {
+        width: 85%;
+        margin-left: 5%;
+    }
+    
+    #imgpropaganda2 {
+        width: 5%;
+        height: 7.5vh;
+        background-image: url(../images/svg-image.png);
+        background-size: 100% 100%;
+    
+    }
+    
+    .contalexdiv {
+        width: 50%;
+    
+    }
+    
+    .contalexdiv1 {
+        width: 50%;
+    
+    }
+    
+    #imagenfondogps {
+        width: 100%;
+        height: 60.15vh;
+    
+    
+    }
+    
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #cpostal {
+        width: 100%;
+        height: 37.6vh;
+        background-image: url(../images/Sin\ título1.png);
+        background-size: 100% 100%;
+    }
+    
+    #aplicaciones {
+        width: 100%;
+        height: 37.6vh;;
+        background-image: url(../images/Sin\ título.png);
+        background-size: 100% 100%;
+    }
+    
+    #imagenfondoapp {
+        width: 100%;
+        height: 60.15vh;
+        background-image: url(../images/banner-app.0e396ff37038.png);
+        background-size: 100% 100%;
+    }
+    .vinculosalex{
+        width: 50%;
+        height: 75.2vh;
+        
+      
+    }
+    h1{
+        
+        margin: 4%;
+        font-size: 2.5vw;
+       
+    }
+    .vinculos{
+    display: none;
+    justify-content:center;
+    align-content: center;
+    
+    
+    }
+    #imgcamion{
+        width: 8vw;
+       margin-left: 3%;
+    }
+    
+    
+    
+    .vinculosalex a{
+        width: 40%;
+        height: 6vh;
+        border: 2px solid black;
+        border-radius: 20vw;
+        padding: 1%;
+        margin: 2.8%;
+        color: rgb(0, 3, 5);
+        font-size: 1.5vw;
+        display:flex;
+       justify-content: center;
+       transition: 0.5s;
+       text-decoration: none;
+    
+    } 
+    
+    .vinculosalex a:hover{
+        width: 40%;
+        height: 6vh;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 20vw;
+        padding: 1%;
+        margin: 2.8%;
+        color:white;
+        font-size: 1.5vw;
+        display: flex;
+       justify-content: center;
+       
+    } 
+    
+    /*FIN section Alex*/
+    
+    /***********************************************************/
+    
+    /*INICIO Gorka MODAL*/
+    .modal-container {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(153, 153, 153, 0.747);
+        pointer-events: none;
+        opacity: 0;
+    }
+    
+    .show {
+        pointer-events: auto;
+        opacity: 1;
+    }
+    
+    .modal {
+        width: 35%;
+        height: 99vh;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0.5%;
+        left: 30%;
+        flex-flow: column;
+        align-items: center;
+        background-color: rgba(248, 38, 167, 0.8);
+    }
+    
+    .title-modal {
+        height: 20vh;
+        width: 35vw;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+    
+    .logo-modal {
+        width: 28%;
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+    
+    .close-modal {
+        width: 5vw;
+        height: 5vh;
+        background-color: transparent;
+        border: 0;
+        position: absolute;
+        top: 10%;
+        left: 80%;
+    }
+    
+    .close-modal:hover {
+        cursor: pointer;
+    }
+    
+    #btn-close {
+        width: 2vw;
+        height: 4vh;
+    }
+    
+    /*INICIO Form Modal*/
+    
+    .registrar-modal {
+        height: 65vh;
+        width: 20vw;
+        display: flex;
+        flex-flow: column;
+        position: relative;
+    
+    }
+    
+    .registrar-modal h2 {
+        position: absolute;
+        top: 3%;
+        left: 15%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .lCorreo {
+        position: absolute;
+        top: 12%;
+        font-size: 18px;
+    }
+    
+    .registrar-modal input,
+    .registrar-modal button {
+        width: 100%;
+        min-height: 38px;
+        border-radius: 15px;
+        border: 0;
+    }
+    
+    #iCorreo {
+        position: absolute;
+        top: 18%;
+    }
+    
+    .lPass {
+        position: absolute;
+        top: 30%;
+        font-size: 18px;
+    }
+    
+    #iPass {
+        position: absolute;
+        top: 36%;
+    }
+    
+    #nocontra {
+        position: absolute;
+        top: 47%;
+        left: 13%;
+        color: #000000;
+    }
+    
+    /*BOTONES modal*/
+    .btn-ses {
+        position: absolute;
+        top: 55%;
+        text-align: center;
+        background-color: rgb(235, 31, 31);
+        color: #ffffff;
+        font-size: 16px;
+    }
+    
+    .o {
+        position: absolute;
+        top: 65%;
+        left: 48%;
+        font-size: 16px;
+    }
+    
+    .google {
+        position: absolute;
+        top: 71%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .google:hover {
+        background: #e7e7e7;
+    }
+    
+    .logo-google {
+        width: 10%;
+        font-size: 16px;
+    }
+    
+    .registro {
+        position: absolute;
+        top: 85%;
+        background-color: rgb(0, 81, 255);
+    }
+    
+    #btn-registro {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    
+    /*FIN Form modal*/
+    .letr-peq {
+        width: 80%;
+        height: 13px;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+    
+    .politicas {
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .politicas:hover {
+        text-decoration: underline;
+    }
+    
+    /*FIN Gorka MODAL*/
+    
+    /***********************************************************/
+    
+    /*Inicio slider Alex*/
+    :root {
+    
+        --move-initial: calc(5%);
+        --move-final: calc(-50%);
+    }
+    
+    .marquee {
+        width: 100%;
+        height: 10vh;
+        background-color: black;
+        color: white;
+        font-size: 2vw;
+        display: flex;
+        align-items: center;
+    
+    
+        text-transform: uppercase;
+        overflow: hidden;
+    
+        &.running .marquee-inner {
+            animation-play-state: running
+        }
+    
+    }
+    
+    span {
+        white-space: nowrap;
+    }
+    
+    .marquee-inner {
+        width: max-content;
+        position: relative;
+        animation: marquee 20s linear infinite;
+    
+    
+    }
+    
+    @keyframes marquee {
+        0% {
+            transform: translateX(var(--move-initial))
+        }
+    
+        100% {
+            transform: translateX(var(--move-final))
+        }
+    }
+    
+    /*FIN slider Alex*/
+    
+    /***********************************************************/
+    
+    /*INICIO Gorka footer*/
+    .pie-pag {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+      justify-content: space-around;
+        background-color: white;
+        font-size: 1.5vw;
+    
+    }
+    
+    .img-corp-down {
+        width: 6vw;
+        height: 10vh;
+        margin-block-start: 0.8rem;
+    }
+    
+    .inf-footer {
+        width: 60%;
+        margin-block-start: 2rem;
+    }
+    
+    .list-footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    
+    }
+    
+    .list-legal {
+        text-decoration: none;
+    }
+    
+    .cont-footer {
+        margin-block-start: 1.5rem;
+    }
+    
+    /*FIN Gorka footer*/
+    
+    /**************************************************/
+    
+    /*FIN index.html*/
+    /**/
+    /*INICIO reserva.html*/
+    
+    .container-reserva {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        background-color: #CC8FD2;
+    }
+    
+    .cabe-reser {
+        width: 100%;
+        height: 14vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .contenido-reserva {
+        width: 100%;
+        height: 65vh;
+    }
+    
+    .mes-reserva {
+        margin-inline: 45.5%;
+        margin-top: 4%;
+        background-color: black;
+        border-radius: 15px;
+    }
+    
+    #mes {
+        margin-inline-start: 5%;
+        font-size: 3rem;
+        color: white;
+    
+    }
+    
+    .art-reser {
+        width: 60%;
+        margin: 3% 21% 0 21%;
+    }
+    
+    .table-reser { 
+        width: 100%;
+        height: 60%;
+        margin-block-start: 2%;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+    }
+    
+    .table-finde{
+        color: rgb(188, 22, 22);
+    }
+    
+    .table-col:hover{
+        background-color: #000000;
+        border-radius: 5px;
+    }
+    
+    /*Botones*/
+    .botonera {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: space-around;
+        margin-block-start: 5%;
+    }
+    
+    .btn-horas{
+        width: 15%;
+        padding: 1% 1% 1% 5%;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .btn-siguiente{
+        width: 15%;
+        padding: 1%;
+        border-radius: 8px;
+        background-color: rgb(183, 222, 43);
+        border: none;
+    }
+    
+
+
 }
