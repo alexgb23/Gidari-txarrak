@@ -17,14 +17,14 @@ closeModalIndex.addEventListener('click', () => {
     modalContIndex.classList.remove('show');
 });
 
-//Modal reserva
-openModalReseva.addEventListener('click', () => {
-    modalContReserva.classList.add('show');
-});
+// //Modal reserva
+// openModalReseva.addEventListener('click', () => {
+//     modalContReserva.classList.add('show');
+// });
 
-closeModalReserva.addEventListener('click', () => {
-    modalContReserva.classList.remove('show');
-});
+// closeModalReserva.addEventListener('click', () => {
+//     modalContReserva.classList.remove('show');
+// });
 
 
 /*aside-lateral*/
@@ -43,8 +43,10 @@ function salir() {
 }
 
 /*validador contraseña*/
-let usuariosregistrados=[{correo:"alexander.galvez@estudioenpenascal.com",contrasena:1234, nombre:"Alexander Galvez"},{correo:"gorka.jabonero@estudioenpenascal.com",contrasena:1234, nombre:"Gorka Jabonero"}
-,{correo:"chaimae.elbaghdadi@estudioenpenascal.com",contrasena:1234, nombre:"Chaimae Elbaghdadi "}]
+let usuariosregistrados=[{correo:"alexander.galvez@estudioenpenascal.com",contrasena:1234, nombre:"Alexander Galvez"},{correo:"gorka.jabonero@estudioenpenascal.com",contrasena:1234, nombre:"Gorka Jabonero"},{correo:"chaimae.elbaghdadi@estudioenpenascal.com",contrasena:1234, nombre:"Chaimae Elbaghdadi "}]
+
+let correos= document.querySelector('#iCorreo');
+let password= document.querySelector('#iPass');
 
 //Recogida de datos del calendario
 
@@ -52,22 +54,22 @@ function login(){
     if (correos.value == usuariosregistrados[0].correo && password.value == usuariosregistrados[0].contrasena) {
         location.href = "html/reserva.html";
         usuario=usuariosregistrados[0].nombre;
-        console.log(usuario);
         }
         else if(correos.value == usuariosregistrados[1].correo && password.value == usuariosregistrados[1].contrasena) {
             location.href = "html/reserva.html";
             usuario=usuariosregistrados[1].nombre;
-            console.log(usuario);
         }
         else if(correos.value == usuariosregistrados[2].correo && password.value == usuariosregistrados[2].contrasena) {
             location.href = "html/reserva.html";
-            usuario=usuariosregistrados[1].nombre;
-            console.log(usuario);
+            usuario=usuariosregistrados[2].nombre;
         }
+       
       
       else 
         alert('usuario desconocido');
+    
     }
+    
 
 function recogDatos(a) {
 
