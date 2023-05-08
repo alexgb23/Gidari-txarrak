@@ -29,3 +29,16 @@ function salir(){
 }
 
 /*validador contraseña*/
+let usuariosregistrados=[{correo:"alexander.galvez@estudioenpenascal.com",contrasena:1234},{correo:"gorka.jabonero@estudioenpenascal.com",contrasena:1234}]
+
+let correos=document.querySelector('#iCorreo');
+let password=document.querySelector('#iPass');
+
+function login(){
+    if (correos.value == usuariosregistrados[0].correo && password.value ==usuariosregistrados[0].contrasena) {
+        location.href = "html/reserva.html";
+      } else {
+        alert('usuario desconocido');
+       
+}
+}
