@@ -43,7 +43,8 @@ function salir(){
 }
 
 /*validador contraseña*/
-let usuariosregistrados=[{correo:"alexander.galvez@estudioenpenascal.com",contrasena:1234, nombre:"Alexander Galvez"},{correo:"gorka.jabonero@estudioenpenascal.com",contrasena:1234, nombre:"Gorka Jabonero"}]
+let usuariosregistrados=[{correo:"alexander.galvez@estudioenpenascal.com",contrasena:1234, nombre:"Alexander Galvez"},{correo:"gorka.jabonero@estudioenpenascal.com",contrasena:1234, nombre:"Gorka Jabonero"}
+,{correo:"chaimae.elbaghdadi@estudioenpenascal.com",contrasena:1234, nombre:"Chaimae Elbaghdadi "}]
 
 let correos=document.querySelector('#iCorreo');
 let password=document.querySelector('#iPass');
@@ -51,12 +52,17 @@ let usuario
 
 function login(){
     if (correos.value == usuariosregistrados[0].correo && password.value == usuariosregistrados[0].contrasena) {
-        // location.href = "html/reserva.html";
+        location.href = "html/reserva.html";
         usuario=usuariosregistrados[0].nombre;
         console.log(usuario);
         }
         else if(correos.value == usuariosregistrados[1].correo && password.value == usuariosregistrados[1].contrasena) {
-            // location.href = "html/reserva.html";
+            location.href = "html/reserva.html";
+            usuario=usuariosregistrados[1].nombre;
+            console.log(usuario);
+        }
+        else if(correos.value == usuariosregistrados[2].correo && password.value == usuariosregistrados[2].contrasena) {
+            location.href = "html/reserva.html";
             usuario=usuariosregistrados[1].nombre;
             console.log(usuario);
         }
