@@ -1,16 +1,30 @@
-/*Modal*/
-const openModal = document.getElementById("btn-modal");
-const modalCont = document.getElementById("sesion-modal");
-const closeModal = document.getElementById("btn-close");
+/*Constantes modal Index*/
+const openModalIndex = document.getElementById("btn-modal");
+const modalContIndex = document.getElementById("sesion-modal");
+const closeModalIndex = document.getElementById("btn-close");
 
-openModal.addEventListener('click', () => {
-    modalCont.classList.add('show');
+/* Constantes modal reserva*/
+const openModalReseva = document.getElementById("btn-siguiente");
+const modalContReserva = document.getElementById("sesion-modal");
+const closeModalReserva = document.getElementById("btn-close");
+
+//Modal index
+openModalIndex.addEventListener('click', () => {
+    modalContIndex.classList.add('show');
 });
 
-closeModal.addEventListener('click', () => {
-    modalCont.classList.remove('show');
+closeModalIndex.addEventListener('click', () => {
+    modalContIndex.classList.remove('show');
 });
 
+//Modal reserva
+openModalReseva.addEventListener('click', () => {
+    modalContReserva.classList.add('show');
+});
+
+closeModalReserva.addEventListener('click', () => {
+    modalContReserva.classList.remove('show');
+});
 
 
 /*aside-lateral*/
