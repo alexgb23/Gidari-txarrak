@@ -14,16 +14,18 @@ closeModal.addEventListener('click', () => {
 
 
 /*aside-lateral*/
+let lateral= document.getElementById('lateral');
+let flecha=  document.getElementById('flecha');
 function entrar(){ 
 
-    document.getElementById('lateral').style.display="block";
-    document.getElementById('flecha').style.visibility="hidden"
+    lateral.style.display="block";
+    flecha.style.visibility="hidden"
 }
 
 function salir(){ 
 
-    document.getElementById('lateral').style.display="none";
-    document.getElementById('flecha').style.visibility="visible"
+    lateral.style.display="none";
+    flecha.style.visibility="visible"
 }
 
-
+/*validador contraseña*/
