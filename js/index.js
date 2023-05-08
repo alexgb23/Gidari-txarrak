@@ -28,27 +28,25 @@ closeModalReserva.addEventListener('click', () => {
 
 
 /*aside-lateral*/
-let lateral= document.getElementById('lateral');
-let flecha=  document.getElementById('flecha');
-function entrar(){ 
+let lateral = document.getElementById('lateral');
+let flecha = document.getElementById('flecha');
+function entrar() {
 
-    lateral.style.display="block";
-    flecha.style.visibility="hidden"
+    lateral.style.display = "block";
+    flecha.style.visibility = "hidden"
 }
 
-function salir(){ 
+function salir() {
 
-    lateral.style.display="none";
-    flecha.style.visibility="visible"
+    lateral.style.display = "none";
+    flecha.style.visibility = "visible"
 }
 
 /*validador contraseña*/
 let usuariosregistrados=[{correo:"alexander.galvez@estudioenpenascal.com",contrasena:1234, nombre:"Alexander Galvez"},{correo:"gorka.jabonero@estudioenpenascal.com",contrasena:1234, nombre:"Gorka Jabonero"}
 ,{correo:"chaimae.elbaghdadi@estudioenpenascal.com",contrasena:1234, nombre:"Chaimae Elbaghdadi "}]
 
-let correos=document.querySelector('#iCorreo');
-let password=document.querySelector('#iPass');
-let usuario
+//Recogida de datos del calendario
 
 function login(){
     if (correos.value == usuariosregistrados[0].correo && password.value == usuariosregistrados[0].contrasena) {
@@ -71,3 +69,8 @@ function login(){
         alert('usuario desconocido');
     }
 
+function recogDatos(a) {
+
+    console.log('hora: ' + a + " de mayo");
+
+}
