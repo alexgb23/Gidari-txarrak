@@ -38,6 +38,7 @@
 
 .cont-flecha img {
     width: 6vw;
+   
 }
 
 .menu-des {
@@ -52,15 +53,16 @@
     width: 23vw;
     background-color: black;
     z-index: 100;
-    transition: 1ms;
+    transition: 100ms;
 }
 #lateral{
     position: fixed;
-    
+  
 }
 aside ol{
    position: absolute;
    top: 30px;
+   
   
 }
 
