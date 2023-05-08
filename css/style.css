@@ -4,13 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     flex-wrap: wrap;
-   
+
 }
 
 
 .container-principal {
     width: 100%;
- 
+
 }
 
 /*FIN contenido generales*/
@@ -54,37 +54,40 @@
     z-index: 100;
     transition: 1ms;
 }
-#lateral{
+
+#lateral {
     position: fixed;
-    
-}
-aside ol{
-   position: absolute;
-   top: 30px;
-  
+
 }
 
-aside li{
+aside ol {
+    position: absolute;
+    top: 30px;
+
+}
+
+aside li {
     margin: 15%;
 }
 
 
-aside a{
+aside a {
     font-size: 1.8vw;
     color: #ffffff;
     border-radius: 15vw;
     border: 1px solid white;
-    white-space:nowrap;
-    padding-inline:10%;
+    white-space: nowrap;
+    padding-inline: 10%;
     padding-bottom: 3%;
     text-decoration: none;
 }
-aside a:hover{
+
+aside a:hover {
     background-color: white;
     color: black;
     border: 1px solid white;
-    white-space:nowrap;
-    padding-inline:10%;
+    white-space: nowrap;
+    padding-inline: 10%;
     padding-bottom: 3%;
 }
 
@@ -127,21 +130,21 @@ aside a:hover{
     align-items: center;
 }
 
-.menu{
+.menu {
     font-size: 2vw;
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 
-.iconos-responsive{
+.iconos-responsive {
     display: none;
 }
 
-.menu:hover{
+.menu:hover {
     width: 100%;
-    font-size:2vw;
-    text-decoration:underline;
+    font-size: 2vw;
+    text-decoration: underline;
     color: black;
     font-weight: 500;
 }
@@ -165,7 +168,8 @@ aside a:hover{
     border-radius: 25vw;
     transition: 0.5s;
 }
-#btn-modal:hover{
+
+#btn-modal:hover {
     width: 100%;
     height: 100%;
     color: rgb(209, 206, 206);
@@ -177,7 +181,7 @@ aside a:hover{
     cursor: pointer;
 }
 
-.btn-modal-responsive{
+.btn-modal-responsive {
     display: none;
 }
 
@@ -197,10 +201,11 @@ aside a:hover{
 
 /*************************************************************************************/
 /*INICIO section Chaimae*/
-.chaimae img{
+.chaimae img {
     width: 8vw;
 }
-.flecharedonda{
+
+.flecharedonda {
     display: none;
 }
 
@@ -217,21 +222,22 @@ aside a:hover{
     display: flex;
 
 }
+
 .img1 {
     width: 50%;
     background-image: url(../images/1.png);
-    background-size:cover;
-    
- }
+    background-size: cover;
 
-  .txt1{
-    width: 50%;
-    background-color: yellow; 
-    
-  
 }
 
-.txt1 a{
+.txt1 {
+    width: 50%;
+    background-color: yellow;
+
+
+}
+
+.txt1 a {
     width: 40%;
     height: 6vh;
     border: 2px solid black;
@@ -241,11 +247,12 @@ aside a:hover{
     color: rgb(0, 3, 5);
     font-size: 1.5vw;
     display: flex;
-   justify-content: center;
-   transition: 0.5s;
-   text-decoration: none;
-} 
-.txt1 a:hover{
+    justify-content: center;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.txt1 a:hover {
     width: 40%;
     height: 6vh;
     border: 2px solid black;
@@ -256,21 +263,24 @@ aside a:hover{
     color: white;
     font-size: 1.5vw;
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
-.txt1 h1{
+
+.txt1 h1 {
     font-size: 2.5vw;
 }
 
 
-.txt2{
+.txt2 {
     width: 50%;
-    background-color: yellow; 
+    background-color: yellow;
 }
-.txt2 h1{
+
+.txt2 h1 {
     font-size: 2.5vw;
 }
-.txt2 a{
+
+.txt2 a {
     width: 40%;
     height: 6vh;
     border: 2px solid black;
@@ -280,12 +290,13 @@ aside a:hover{
     color: rgb(0, 3, 5);
     font-size: 1.5vw;
     display: flex;
-   justify-content: center;
-   transition: 0.5s;
-   text-decoration: none;
- 
-} 
-.txt2 a:hover{
+    justify-content: center;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.txt2 a:hover {
     width: 40%;
     height: 6vh;
     border: 2px solid black;
@@ -296,36 +307,36 @@ aside a:hover{
     color: white;
     font-size: 1.5vw;
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
-   
+
 
 .img2 {
     width: 50%;
     background-image: url(../images/MOTO1.jpg);
-    background-size:cover;
-  
+    background-size: cover;
+
 }
 
-.prop{
+.prop {
     width: 100%;
     height: 25vh;
     background-image: url(../images/Sin\ título3.png);
     background-size: 100% 100%;
 }
 
-#imgauto{
+#imgauto {
     margin-left: 3%;
     margin-bottom: 1%;
-   
- }
- 
-#imgmoto{
+
+}
+
+#imgmoto {
     margin-left: 3%;
     margin-bottom: 1%;
-   
- }
+
+}
 
 /*FIN section1 Chaimae*/
 
@@ -348,18 +359,21 @@ aside a:hover{
     background-image: url(../images/Camiones_de_carreras_06-650x366.jpg);
     background-size: 100% 100%;
 }
-.contgralalex{
+
+.contgralalex {
     width: 100%;
     display: flex;
 }
+
 .contalex {
     display: flex;
 }
-.contalexdos{
+
+.contalexdos {
     display: flex;
 }
 
-.flecharedondal{
+.flecharedondal {
     display: none;
 }
 
@@ -384,10 +398,12 @@ aside a:hover{
     background-image: url(../images/svg-image2.png);
     background-size: 100% 100%;
 }
-.imgapk{
+
+.imgapk {
     display: none;
 }
-.imgflaca{
+
+.imgflaca {
     display: none;
 }
 
@@ -443,7 +459,8 @@ iframe {
 
 #aplicaciones {
     width: 100%;
-    height: 37.6vh;;
+    height: 37.6vh;
+    ;
     background-image: url(../images/Sin\ título.png);
     background-size: 100% 100%;
 }
@@ -454,35 +471,38 @@ iframe {
     background-image: url(../images/banner-app.0e396ff37038.png);
     background-size: 100% 100%;
 }
-.vinculosalex{
+
+.vinculosalex {
     width: 50%;
-    height: 75.2vh;  
+    height: 75.2vh;
 }
 
-.imagenes-juntasalex{
+.imagenes-juntasalex {
     display: none;
 }
 
-h1{
+h1 {
     margin: 4%;
     font-size: 2.5vw;
-   
+
 }
-.vinculos{
-display: flex;
-justify-content:center;
-align-content: center;
+
+.vinculos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
 
 }
-#imgcamion{
+
+#imgcamion {
     width: 8vw;
-   margin-left: 3%;
+    margin-left: 3%;
 }
 
 
 
-.vinculosalex a{
+.vinculosalex a {
     width: 40%;
     height: 6vh;
     border: 2px solid black;
@@ -491,14 +511,14 @@ align-content: center;
     margin: 2.8%;
     color: rgb(0, 3, 5);
     font-size: 1.5vw;
-    display:flex;
-   justify-content: center;
-   transition: 0.5s;
-   text-decoration: none;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    text-decoration: none;
 
-} 
+}
 
-.vinculosalex a:hover{
+.vinculosalex a:hover {
     width: 40%;
     height: 6vh;
     background-color: black;
@@ -506,18 +526,18 @@ align-content: center;
     border-radius: 20vw;
     padding: 1%;
     margin: 2.8%;
-    color:white;
+    color: white;
     font-size: 1.5vw;
     display: flex;
-   justify-content: center;
-   
-} 
+    justify-content: center;
+
+}
 
 /*FIN section Alex*/
 
 /***********************************************************/
 
-/*INICIO Gorka MODAL*/
+/* Gorka INICIO MODAL regristrar*/
 .modal-container {
     width: 100vw;
     height: 100vh;
@@ -767,7 +787,7 @@ span {
     height: 15vh;
     display: flex;
     align-items: center;
-  justify-content: space-around;
+    justify-content: space-around;
     background-color: white;
     font-size: 1.5vw;
 
@@ -825,19 +845,20 @@ span {
 
 .contenido-reserva {
     width: 100%;
-    height: 65vh;
+    height: 70vh;
 }
 
 .mes-reserva {
     margin-inline: 45.5%;
     margin-top: 4%;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 15vw;
+    text-align: center;
 }
 
 #mes {
     margin-inline-start: 5%;
-    font-size: 3rem;
+    font-size: 3vw;
     color: white;
 
 }
@@ -847,7 +868,7 @@ span {
     margin: 3% 21% 0 21%;
 }
 
-.table-reser { 
+.table-reser {
     width: 100%;
     height: 60%;
     margin-block-start: 2%;
@@ -856,11 +877,17 @@ span {
     color: white;
 }
 
-.table-finde{
+.table-finde {
     color: rgb(188, 22, 22);
 }
 
-.table-col:hover{
+.table-finde,
+.table-col,
+.table-head {
+    font-size: 3vw;
+}
+
+.table-col:hover {
     background-color: #000000;
     border-radius: 5px;
 }
@@ -874,24 +901,82 @@ span {
     margin-block-start: 5%;
 }
 
-.btn-horas{
+.btn-horas {
     width: 15%;
     padding: 1% 1% 1% 5%;
     border-radius: 8px;
     border: none;
+    font-size: 1vw;
 }
 
-.btn-siguiente{
+#btn-siguiente {
     width: 15%;
     padding: 1%;
     border-radius: 8px;
     background-color: rgb(183, 222, 43);
     border: none;
+    font-size: 1vw;
 }
 
+/*INICIO Modal reserva*/
 
+.resultado-modal h2{
+    margin-block-start: 15%;
+    font-size: 3vw;
+    font-weight: bold;
+}
 
+.resultado-modal label{
+    display: inline-block;
+    margin-block-start: 10%;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
 
+.resultado-modal span{
+    font-size: 1.5vw;
+}
+
+.botonera-reserva{
+    width: 100%;
+    margin-block-start: 15%;
+    height: 5vh;
+    text-align: center;
+}
+
+.botonera-reserva input{
+    width: 30%;
+    height: 5vh;
+    border: none;
+    text-align: center;
+    border-radius: 3vw;
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+.btn-cancelar{
+    background-color: red;
+    
+}
+.btn-cancelar:hover{ 
+    background-color: rgb(168, 20, 50);
+}
+
+.btn-imprimir{
+    background-color: blue;
+}
+
+.btn-imprimir:hover{
+    background-color: rgb(11, 11, 189);
+}
+
+.btn-aceptar{
+    background-color: green;
+}
+
+.btn-aceptar:hover{
+    background-color:rgb(4, 95, 4);
+}
 
 /***********************************************************************************************************************************/
 /***********************************************************************************************************************************/
@@ -899,52 +984,53 @@ span {
 
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
 
     .container-principal {
         width: 100%;
-     
+
     }
-    
+
     /*FIN contenido generales*/
     /**/
     /*INICIO section="general" index.html*/
-    
+
     .general {
         width: 100%;
         display: flex;
     }
 
-    
+
     /***************************************************************/
     /* INICIO Gorka aside*/
-    aside{
+    aside {
         display: none;
     }
+
     /***************************************************************/
     /* Inicio Gorka header*/
     .cabeceraGK {
         width: 100%;
         height: 12vh;
         position: fixed;
-        background-color:black;
+        background-color: black;
         display: flex;
         justify-content: space-evenly;
     }
-    
+
     .img-corp {
         width: 14vw;
         height: 10vh;
         margin-block-start: 1%;
     }
-    
+
     .logo {
         width: 50%;
         height: 10vh;
         margin-inline-start: 50%;
     }
-    
+
     .navegador {
         width: 65%;
         display: flex;
@@ -953,95 +1039,100 @@ span {
         gap: 1rem;
         align-items: center;
     }
-    
-    .menu{
-       display: none;
+
+    .menu {
+        display: none;
     }
-    .iconosnav{
+
+    .iconosnav {
         width: 25vw;
         height: 11vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        
+
     }
-    #wassap{
-        width:5vw;
-        height: 6vh;
-        background-image:url(../images/svg-image11.png);
-        background-size:100% 100%;
-    }
-    #telefono{
+
+    #wassap {
         width: 5vw;
         height: 6vh;
-        background-image:url(../images/svg-image20.png);
+        background-image: url(../images/svg-image11.png);
+        background-size: 100% 100%;
+    }
+
+    #telefono {
+        width: 5vw;
+        height: 6vh;
+        background-image: url(../images/svg-image20.png);
         background-size: 100% 100%;
     }
 
     .ini-ses {
-        width:8vw;
+        width: 8vw;
         height: 8vh;
         margin-block-start: 2%;
-        background-image:url(../images/54630ico.png);
-        background-size:100% 100%;
+        background-image: url(../images/54630ico.png);
+        background-size: 100% 100%;
     }
+
     #btn-modal {
         display: none;
-      
+
     }
-   
-  
+
+
     /*Fin Gorka header*/
     /*************************************************************************************/
     .contenedor-main {
         width: 111%;
         display: flex;
         flex-flow: row;
-      
+
     }
-    
+
     .contenedor {
         width: 100%;
-        margin-block-start:9%;
+        margin-block-start: 9%;
     }
-    
+
     /*************************************************************************************/
     /*INICIO section Chaimae*/
-    .chaimae img{
+    .chaimae img {
         width: 8vw;
     }
-    
+
     .art1 {
         width: 100%;
         height: 60.15vh;
         display: flex;
-    
+
     }
-    
+
     .art2 {
         width: 100%;
         height: 60.15vh;
         display: flex;
-    
+
     }
+
     .img1 {
         width: 50%;
         background-image: url(../images/1.png);
-        background-size:100% 100%;
-        
-     }
-    
-      .txt1{
+        background-size: 100% 100%;
+
+    }
+
+    .txt1 {
         width: 50%;
-        background-color: yellow; 
-        display:flex;
+        background-color: yellow;
+        display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
-      
+
+
     }
-    
-    .txt1 a{
+
+    .txt1 a {
         display: none;
         width: 40%;
         height: 6vh;
@@ -1051,11 +1142,12 @@ span {
         margin: 2.5%;
         color: rgb(0, 3, 5);
         font-size: 1.5vw;
-       justify-content: center;
-       transition: 0.5s;
-       text-decoration: none;
-    } 
-    .txt1 a:hover{
+        justify-content: center;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+
+    .txt1 a:hover {
         width: 40%;
         height: 6vh;
         border: 2px solid black;
@@ -1065,31 +1157,34 @@ span {
         margin: 2.5%;
         color: white;
         font-size: 1.5vw;
-        
-       justify-content: center;
+
+        justify-content: center;
     }
-    .txt1 h1{
+
+    .txt1 h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 8vw;
     }
-    
-    
-    .txt2{
+
+
+    .txt2 {
         width: 50%;
-        background-color: yellow; 
-        display:flex;
+        background-color: yellow;
+        display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .txt2 h1{
+
+    .txt2 h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 8vw;
     }
-    .txt2 a{
+
+    .txt2 a {
         display: none;
         width: 40%;
         height: 6vh;
@@ -1099,12 +1194,13 @@ span {
         margin: 2.5%;
         color: rgb(0, 3, 5);
         font-size: 1.5vw;
-       justify-content: center;
-       transition: 0.5s;
-       text-decoration: none;
-     
-    } 
-    .txt2 a:hover{
+        justify-content: center;
+        transition: 0.5s;
+        text-decoration: none;
+
+    }
+
+    .txt2 a:hover {
         width: 40%;
         height: 6vh;
         border: 2px solid black;
@@ -1115,55 +1211,58 @@ span {
         color: white;
         font-size: 1.5vw;
         display: flex;
-       justify-content: center;
+        justify-content: center;
     }
-    
-       
-    
+
+
+
     .img2 {
         width: 50%;
         background-image: url(../images/MOTO1.jpg);
-        background-size:100% 100%;
-      
+        background-size: 100% 100%;
+
     }
-    
-    .prop{
+
+    .prop {
         width: 100%;
         height: 25vh;
         background-image: url(../images/Sin\ título3.png);
         background-size: 100% 100%;
     }
-    .imagenes-juntas{
+
+    .imagenes-juntas {
         display: flex;
         justify-content: space-between;
         align-items: center;
-     
-       
+
+
     }
-    
-    #imgauto{
+
+    #imgauto {
         width: 22vw;
         height: auto;
-       
-     }
-     .flecharedonda{
+
+    }
+
+    .flecharedonda {
         display: flex;
         width: 40%;
         margin-right: 5%;
-       
-     }
-    #imgmoto{
+
+    }
+
+    #imgmoto {
         width: 18vw;
         height: auto;
-    
-     }
-    
+
+    }
+
     /*FIN section1 Chaimae*/
-    
+
     /***********************************************************/
-    
+
     /*INICIO section Alex*/
-    
+
     #enlacesa {
         width: 50%;
         height: 75.2vh;
@@ -1172,63 +1271,69 @@ span {
         justify-content: center;
         align-items: center;
     }
-    
+
     #imagenfondo {
         width: 50%;
         height: 75.2vh;
-       
+
     }
-   .flecharedondal{
-    display: flex;
-    width: 8%;
-    height: 8%;
-   margin: 3%;
-   }
 
-   .imagenes-juntasalex{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-    width: 100%;
-    height: 100%;
-}
-.imagenes-juntasalex h2{
-    display: flex;
-    margin: 0 auto;
-    font-size: 10vw;
-   
-}
-.contalexdos{
-    display: none;
-}
+    .flecharedondal {
+        display: flex;
+        width: 8%;
+        height: 8%;
+        margin: 3%;
+    }
 
-    .contgralalex{
+    .imagenes-juntasalex {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagenes-juntasalex h2 {
+        display: flex;
+        margin: 0 auto;
+        font-size: 10vw;
+
+    }
+
+    .contalexdos {
         display: none;
     }
-    .imgapk{
+
+    .contgralalex {
+        display: none;
+    }
+
+    .imgapk {
         display: flex;
         width: 100%;
         height: 50vh;
         background-image: url(../images/Sin\ título.png);
         background-size: 100% 100%;
     }
-    .imgflaca{
+
+    .imgflaca {
         display: flex;
         width: 100%;
         height: 15vh;
         background-image: url(../images/Sin\ título3.png);
         background-size: 100% 100%;
     }
-    
+
     .contalex {
         display: flex;
         width: 100%;
-        height: 75.2vh;;
+        height: 75.2vh;
+        ;
         background-image: url(../images/Camiones_de_carreras_06-650x366.jpg);
         background-size: 100% 100%;
-        
+
     }
-    
+
     .contalexprop {
         display: flex;
         align-items: center;
@@ -1238,19 +1343,19 @@ span {
         color: aliceblue;
         font-size: 2.5vw;
     }
-    
+
     #textopropaganda {
         width: 85%;
         margin-left: 5%;
     }
-    
+
     #imgpropaganda {
         width: 5%;
         height: 7.5vh;
         background-image: url(../images/svg-image2.png);
         background-size: 100% 100%;
     }
-    
+
     .contalexprop2 {
         display: flex;
         align-items: center;
@@ -1260,89 +1365,94 @@ span {
         color: black;
         font-size: 2.5vw;
     }
-    
+
     #textopropaganda2 {
         width: 85%;
         margin-left: 5%;
     }
-    
+
     #imgpropaganda2 {
         width: 5%;
         height: 7.5vh;
         background-image: url(../images/svg-image.png);
         background-size: 100% 100%;
-    
+
     }
-    
+
     .contalexdiv {
         width: 50%;
-    
+
     }
-    
+
     .contalexdiv1 {
         width: 50%;
-    
+
     }
-    
+
     #imagenfondogps {
         width: 100%;
         height: 60.15vh;
-    
-    
+
+
     }
-    
+
     iframe {
         width: 100%;
         height: 100%;
     }
-    
+
     #cpostal {
         width: 100%;
         height: 37.6vh;
         background-image: url(../images/Sin\ título1.png);
         background-size: 100% 100%;
     }
-    
+
     #aplicaciones {
         width: 100%;
-        height: 37.6vh;;
+        height: 37.6vh;
+        ;
         background-image: url(../images/Sin\ título.png);
         background-size: 100% 100%;
     }
-    
+
     #imagenfondoapp {
         width: 100%;
         height: 60.15vh;
         background-image: url(../images/banner-app.0e396ff37038.png);
         background-size: 100% 100%;
     }
-    .vinculosalex{
+
+    .vinculosalex {
         width: 50%;
         height: 75.2vh;
-        
-      
+
+
     }
-    h1{
-        
+
+    h1 {
+
         margin: 4%;
         font-size: 2.5vw;
-       
+
     }
-    .vinculos{
-    display: none;
-    justify-content:center;
-    align-content: center;
-    
-    
+
+    .vinculos {
+        display: none;
+        justify-content: center;
+        align-content: center;
+
+
     }
-    #imgcamion{
+
+    #imgcamion {
         width: 8vw;
-       margin-left: 3%;
+        margin-left: 3%;
     }
-    
-    
-    
-    .vinculosalex a{
+
+
+
+    .vinculosalex a {
         width: 40%;
         height: 6vh;
         border: 2px solid black;
@@ -1351,14 +1461,14 @@ span {
         margin: 2.8%;
         color: rgb(0, 3, 5);
         font-size: 1.5vw;
-        display:flex;
-       justify-content: center;
-       transition: 0.5s;
-       text-decoration: none;
-    
-    } 
-    
-    .vinculosalex a:hover{
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+        text-decoration: none;
+
+    }
+
+    .vinculosalex a:hover {
         width: 40%;
         height: 6vh;
         background-color: black;
@@ -1366,17 +1476,17 @@ span {
         border-radius: 20vw;
         padding: 1%;
         margin: 2.8%;
-        color:white;
+        color: white;
         font-size: 1.5vw;
         display: flex;
-       justify-content: center;
-       
-    } 
-    
+        justify-content: center;
+
+    }
+
     /*FIN section Alex*/
-    
+
     /***********************************************************/
-    
+
     /*INICIO Gorka MODAL*/
     .modal-container {
         width: 100vw;
@@ -1388,12 +1498,12 @@ span {
         pointer-events: none;
         opacity: 0;
     }
-    
+
     .show {
         pointer-events: auto;
         opacity: 1;
     }
-    
+
     .modal {
         width: 35%;
         height: 99vh;
@@ -1407,7 +1517,7 @@ span {
         align-items: center;
         background-color: rgba(248, 38, 167, 0.8);
     }
-    
+
     .title-modal {
         height: 20vh;
         width: 35vw;
@@ -1415,14 +1525,14 @@ span {
         justify-content: space-around;
         position: relative;
     }
-    
+
     .logo-modal {
         width: 28%;
         position: absolute;
         top: 10%;
         left: 35%;
     }
-    
+
     .close-modal {
         width: 5vw;
         height: 5vh;
@@ -1432,27 +1542,27 @@ span {
         top: 10%;
         left: 80%;
     }
-    
+
     .close-modal:hover {
         cursor: pointer;
     }
-    
+
     #btn-close {
         width: 2vw;
         height: 4vh;
     }
-    
+
     /*INICIO Form Modal*/
-    
+
     .registrar-modal {
         height: 65vh;
         width: 20vw;
         display: flex;
         flex-flow: column;
         position: relative;
-    
+
     }
-    
+
     .registrar-modal h2 {
         position: absolute;
         top: 3%;
@@ -1460,13 +1570,13 @@ span {
         font-size: 25px;
         font-weight: bold;
     }
-    
+
     .lCorreo {
         position: absolute;
         top: 12%;
         font-size: 18px;
     }
-    
+
     .registrar-modal input,
     .registrar-modal button {
         width: 100%;
@@ -1474,30 +1584,30 @@ span {
         border-radius: 15px;
         border: 0;
     }
-    
+
     #iCorreo {
         position: absolute;
         top: 18%;
     }
-    
+
     .lPass {
         position: absolute;
         top: 30%;
         font-size: 18px;
     }
-    
+
     #iPass {
         position: absolute;
         top: 36%;
     }
-    
+
     #nocontra {
         position: absolute;
         top: 47%;
         left: 13%;
         color: #000000;
     }
-    
+
     /*BOTONES modal*/
     .btn-ses {
         position: absolute;
@@ -1507,14 +1617,14 @@ span {
         color: #ffffff;
         font-size: 16px;
     }
-    
+
     .o {
         position: absolute;
         top: 65%;
         left: 48%;
         font-size: 16px;
     }
-    
+
     .google {
         position: absolute;
         top: 71%;
@@ -1524,28 +1634,28 @@ span {
         align-items: center;
         gap: 15px;
     }
-    
+
     .google:hover {
         background: #e7e7e7;
     }
-    
+
     .logo-google {
         width: 10%;
         font-size: 16px;
     }
-    
+
     .registro {
         position: absolute;
         top: 85%;
         background-color: rgb(0, 81, 255);
     }
-    
+
     #btn-registro {
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-size: 16px;
     }
-    
+
     /*FIN Form modal*/
     .letr-peq {
         width: 80%;
@@ -1554,28 +1664,28 @@ span {
         flex-flow: column;
         text-align: center;
     }
-    
+
     .politicas {
         font-weight: 900;
         text-decoration: none;
         color: black;
     }
-    
+
     .politicas:hover {
         text-decoration: underline;
     }
-    
+
     /*FIN Gorka MODAL*/
-    
+
     /***********************************************************/
-    
+
     /*Inicio slider Alex*/
     :root {
-    
+
         --move-initial: calc(5%);
         --move-final: calc(-50%);
     }
-    
+
     .marquee {
         width: 100%;
         height: 10vh;
@@ -1584,97 +1694,97 @@ span {
         font-size: 2vw;
         display: flex;
         align-items: center;
-    
-    
+
+
         text-transform: uppercase;
         overflow: hidden;
-    
+
         &.running .marquee-inner {
             animation-play-state: running
         }
-    
+
     }
-    
+
     span {
         white-space: nowrap;
     }
-    
+
     .marquee-inner {
         width: max-content;
         position: relative;
         animation: marquee 20s linear infinite;
-    
-    
+
+
     }
-    
+
     @keyframes marquee {
         0% {
             transform: translateX(var(--move-initial))
         }
-    
+
         100% {
             transform: translateX(var(--move-final))
         }
     }
-    
+
     /*FIN slider Alex*/
-    
+
     /***********************************************************/
-    
+
     /*INICIO Gorka footer*/
     .pie-pag {
         width: 100%;
         height: 15vh;
         display: flex;
         align-items: center;
-      justify-content: space-around;
+        justify-content: space-around;
         background-color: white;
         font-size: 1.5vw;
-    
+
     }
-    
+
     .img-corp-down {
         width: 6vw;
         height: 10vh;
         margin-block-start: 0.8rem;
     }
-    
+
     .inf-footer {
         width: 60%;
         margin-block-start: 2rem;
     }
-    
+
     .list-footer {
         width: 100%;
         display: flex;
         justify-content: space-between;
         list-style: none;
-    
+
     }
-    
+
     .list-legal {
         text-decoration: none;
     }
-    
+
     .cont-footer {
         margin-block-start: 1.5rem;
     }
-    
+
     /*FIN Gorka footer*/
-    
+
     /**************************************************/
-    
+
     /*FIN index.html*/
     /**/
     /*INICIO reserva.html*/
-    
+
     .container-reserva {
         width: 100%;
         height: 100vh;
         margin: 0 auto;
         background-color: #CC8FD2;
     }
-    
+
     .cabe-reser {
         width: 100%;
         height: 14vh;
@@ -1682,32 +1792,32 @@ span {
         display: flex;
         justify-content: space-evenly;
     }
-    
+
     .contenido-reserva {
         width: 100%;
         height: 65vh;
     }
-    
+
     .mes-reserva {
         margin-inline: 45.5%;
         margin-top: 4%;
         background-color: black;
         border-radius: 15px;
     }
-    
+
     #mes {
         margin-inline-start: 5%;
         font-size: 3rem;
         color: white;
-    
+
     }
-    
+
     .art-reser {
         width: 60%;
         margin: 3% 21% 0 21%;
     }
-    
-    .table-reser { 
+
+    .table-reser {
         width: 100%;
         height: 60%;
         margin-block-start: 2%;
@@ -1715,16 +1825,16 @@ span {
         text-align: center;
         color: white;
     }
-    
-    .table-finde{
+
+    .table-finde {
         color: rgb(188, 22, 22);
     }
-    
-    .table-col:hover{
+
+    .table-col:hover {
         background-color: #000000;
         border-radius: 5px;
     }
-    
+
     /*Botones*/
     .botonera {
         width: 100%;
@@ -1733,22 +1843,22 @@ span {
         justify-content: space-around;
         margin-block-start: 5%;
     }
-    
-    .btn-horas{
+
+    .btn-horas {
         width: 15%;
         padding: 1% 1% 1% 5%;
         border-radius: 8px;
         border: none;
     }
-    
-    .btn-siguiente{
+
+    .btn-siguiente {
         width: 15%;
         padding: 1%;
         border-radius: 8px;
         background-color: rgb(183, 222, 43);
         border: none;
     }
-    
+
 
 
 }
