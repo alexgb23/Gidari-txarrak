@@ -25,7 +25,7 @@
                 <div><a class="menu" href="pendiente.html">¿Eres empresa?</a></div>
             </nav>
             <div class="ini-ses">
-                <button id="btn-modal">Iniciar sesión</button>
+                <button class="btn-modal" id="btn-modal-res">Iniciar sesión</button>
             </div>
         </header>
         <main class="contenido-reserva">
@@ -49,8 +49,8 @@
                         <td class="table-col" onclick="recogDatos(3)">3</td>
                         <td class="table-col" onclick="recogDatos(4)">4</td>
                         <td class="table-col" onclick="recogDatos(5)">5</td>
-                        <td class="table-finde" onclick="recogDatos(6)">6</td>
-                        <td class="table-finde" onclick="recogDatos(7)">7</td>
+                        <td class="table-finde">6</td>
+                        <td class="table-finde">7</td>
                     </tr>
                     <tr>
                         <td class="table-col" onclick="recogDatos(8)">8</td>
@@ -58,8 +58,8 @@
                         <td class="table-col" onclick="recogDatos(10)">10</td>
                         <td class="table-col" onclick="recogDatos(11)">11</td>
                         <td class="table-col" onclick="recogDatos(12)">12</td>
-                        <td class="table-finde" onclick="recogDatos(13)">13</td>
-                        <td class="table-finde" onclick="recogDatos(14)">14</td>
+                        <td class="table-finde">13</td>
+                        <td class="table-finde">14</td>
                     </tr>
                     <tr>
                         <td class="table-col" onclick="recogDatos(15)">15</td>
@@ -67,8 +67,8 @@
                         <td class="table-col" onclick="recogDatos(17)">17</td>
                         <td class="table-col" onclick="recogDatos(18)">18</td>
                         <td class="table-col" onclick="recogDatos(19)">19</td>
-                        <td class="table-finde" onclick="recogDatos(20)">20</td>
-                        <td class="table-finde" onclick="recogDatos(21)">21</td>
+                        <td class="table-finde">20</td>
+                        <td class="table-finde">21</td>
                     </tr>
                     <tr>
                         <td class="table-col" onclick="recogDatos(22)">22</td>
@@ -76,8 +76,8 @@
                         <td class="table-col" onclick="recogDatos(24)">24</td>
                         <td class="table-col" onclick="recogDatos(25)">25</td>
                         <td class="table-col" onclick="recogDatos(26)">26</td>
-                        <td class="table-finde" onclick="recogDatos(27)">27</td>
-                        <td class="table-finde" onclick="recogDatos(28)">28</td>
+                        <td class="table-finde">27</td>
+                        <td class="table-finde">28</td>
                     </tr>
                     <tr>
                         <td class="table-col" onclick="recogDatos(29)">29</td>
@@ -90,7 +90,7 @@
                     </tr>
                 </table>
                 <div class="botonera">
-                    <select name="hora" class="btn-horas" >
+                    <select name="hora" class="btn-horas" id="btn-horas" onchange="recogHora()">
                         <option class= "opt-hora">08:00</option>
                         <option class= "opt-hora" value="09:00">09:00</option>
                         <option class= "opt-hora" value="10:00">10:00</option>
@@ -105,17 +105,17 @@
                         <option class= "opt-hora" value="19:00">19:00</option>
                         <option class= "opt-hora" value="20:00">20:00</option>
                     </select>
-                    <input type="button" id="btn-siguiente" value="Siguiente">
+                    <input type="button" id="btn-siguiente" value="Siguiente" onclick="terminar()">
                 </div>
             </article>
         </main>
         <!--INICIO Modal-->
-        <div class="modal-container" id="sesion-modal">
+        <div class="modal-container" id="reser-modal">
             <div class="modal">
                 <div class="title-modal">
                     <img class="logo-modal" src="../images/logo.png" alt="Logo">
                     <button class="close-modal">
-                        <img id="btn-close" src="../images/close icon.png" alt="Close icon">
+                        <img class="btn-close" id="close-res" src="../images/close icon.png" alt="Close icon">
                     </button>
                 </div>
                 <!--Formulario-->

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarme</title>
+
+    <!--LINKS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>  
+    <section class="regis-container">
+        
+        <div class="registrarse">
+            <div class="title-modal">
+                <img class="logo-modal" src="../images/logo.png" alt="Logo">
+            </div>
+            <!--Formulario-->
+            <form class="registrar-modal" action="#" name="registrar">
+                <h2>Registro</h2>
+                <label class="lNombre">Nombre</label>
+                <input type="text" id="iNombre" name="nNombre"autofocus required>
+                <label class="lCorreo">Correo</label>
+                <input type="email" id="iCorreo"  name="nCorreo" required>
+                <label class="lPass">Contraseña</label>
+                <input type="password" id="iPass" name="nPass" required>
+                
+                <!-- Botones-->
+                 <input class="btn-volver" href="../index.html" value="Volver">
+                <button class="button-regis">
+                    <a id="btn-registro" onclick="guardarUsu()" >
+                        Registrarme
+                    </a>
+                </button>
+            </form> 
+
+            <!--Condiciones de uso-->
+            <div class="letr-peq">
+                <p class="letra-peq">Si continúas, aceptas los <a class="politicas"
+                        href="https://policy.pinterest.com/es/terms-of-service">Términos del servicio
+                    </a> de Pinterest y confirmas que has leído nuestra <a class="politicas"
+                        href="https://policy.pinterest.com/es/privacy-policy">
+                        Política de privacidad. </a>
+                </p>
+                <a class="politicas" href="https://policy.pinterest.com/es/notice-at-collection">Aviso de
+                    recopilación
+                    de datos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
