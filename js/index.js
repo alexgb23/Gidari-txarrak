@@ -10,30 +10,28 @@ const closeModalReserva = document.getElementById("close-res");
 
 //Modal index
 if (openModalIndex) {
-    openModalIndex.addEventListener('click', function (event) {
+    openModalIndex.addEventListener('click', () => {
         modalContIndex.classList.add('show');
-        event.preventDefault();
+        
     });
 }
 
 if (closeModalIndex) {
-    closeModalIndex.addEventListener('click', function (event) {
+    closeModalIndex.addEventListener('click', () => {
         modalContIndex.classList.remove('show');
-        event.preventDefault();
     });
 }
 
 // //Modal reserva
 if (openModalReseva) {
-    openModalReseva.addEventListener('click', function (event) {
+    openModalReseva.addEventListener('click', () => {
         modalContReserva.classList.add('show');
-        event.preventDefault();
+       
     });
 }
 if (closeModalReserva) {
-    closeModalReserva.addEventListener('click', function (event) {
+    closeModalReserva.addEventListener('click', () => {
         modalContReserva.classList.remove('show');
-        event.preventDefault();
     });
 }
 
@@ -41,6 +39,7 @@ if (closeModalReserva) {
 /*aside-lateral*/
 let lateral = document.getElementById('lateral');
 let flecha = document.getElementById('flecha');
+
 function entrar() {
 
     lateral.style.display = "block";
@@ -83,26 +82,37 @@ function guardarUsu() {
     let vContra = document.registrar.nPass.value;
     let vNombre = document.registrar.nNombre.value;
 
-    usuariosregistrados.push({ correo: vCorreo, contrasena: vContra, nombre: vNombre, });
 
-    console.log(usuariosregistrados); // esto es para ver si va  se van sumando las entradas
-
+        alert("aaaaaaaaaaaaaaaa");
 
     if (vCorreo.trim() != "" && vContra.trim() != "" && vNombre.trim() != "") {
+        usuariosregistrados.push({ correo: vCorreo, contrasena: vContra, nombre: vNombre, });
+
+        localStorage.setItem("My array", JSON.stringify(usuariosregistrados));
+
+        var guardado = localStorage.getItem('My array');
+        console.log('Valor obtenido: ', JSON.parse(guardado)); // esto es para ver si va  se van sumando las entradas
+       
 
         location.href = "../index.html";
-    } else {
+    } 
+    else {
         alert("Introduzca todos los campos");
     }
+    
 }
 
+
+// function atras(){
+//     location.href = "../index.html";
+// }
 
 /* Paginas reserva.js*/
 let dias;
 let mes = "Mayo";
 let ano = "2023";
 let fecha;
-let registrofinal = new Array()
+let registrofinal = new Array();
 
 function recogDatos(a) {
     dias = a;
@@ -117,4 +127,10 @@ function recogHora() {
     var data = new Date(fecha);
     registrofinal.push(fecha);
     console.log(registrofinal);
+
+    //Guardamos la fecha en local y hacemos que el array se vaya agrandando a cada vez que introducimos nuevos
+    localStorage.setItem("Reservas", JSON.stringify(registrofinal));
+
+        var guardado1 = localStorage.getItem('Reservas');
+        console.log('Valor obtenido: ', JSON.parse(guardado1));
 }

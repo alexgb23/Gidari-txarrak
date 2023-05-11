@@ -17,17 +17,17 @@
                 <img class="logo-modal" src="../images/logo.png" alt="Logo">
             </div>
             <!--Formulario-->
-            <form class="registrar-modal" action="#" name="registrar">
+            <form class="registrar-modal" action="javascript:void(0);" name="registrar" method="post">
                 <h2>Registro</h2>
                 <label class="lNombre">Nombre</label>
-                <input type="text" id="iNombre" name="nNombre"autofocus required>
+                <input type="text" id="iNombre" name="nNombre"autofocus >
                 <label class="lCorreo">Correo</label>
-                <input type="email" id="iCorreo"  name="nCorreo" required>
+                <input type="email" id="iCorreo"  name="nCorreo" >
                 <label class="lPass">Contraseña</label>
-                <input type="password" id="iPass" name="nPass" required>
+                <input type="password" id="iPass" name="nPass" >
                 
                 <!-- Botones-->
-                 <input class="btn-volver" href="../index.html" value="Volver">
+                 <input class="btn-volver" href="../index.html" value="Volver" onclick="atras()">
                 <button class="button-regis">
                     <a id="btn-registro" onclick="guardarUsu()" >
                         Registrarme
