@@ -9,12 +9,11 @@ const modalContReserva = document.getElementById("reser-modal");
 const closeModalReserva = document.getElementById("close-res");
 
 //Modal index
-// if (openModalIndex) {
-//     openModalIndex.addEventListener('click', () => {
-//         modalContIndex.style.opacity='1';
-//         modalContIndex.style.pointerEvents = 'auto';
-//     });
-// }
+if (openModalIndex) {
+    openModalIndex.addEventListener('click', () => {
+        modalContIndex.classList.add('show');
+    });
+}
 
 if (closeModalIndex) {
     closeModalIndex.addEventListener('click', () => {
@@ -35,12 +34,6 @@ if (closeModalReserva) {
     });
 }
 
-const tyu = document.querySelectorAll("#btn-siguiente, #btn-modal");
-
-tyu.addEventListener('click', funcion => {
-    modalContIndex.style.opacity='1';
-    modalContIndex.style.pointerEvents = 'auto';
-});
 
 /*aside-lateral*/
 let lateral = document.getElementById('lateral');
@@ -116,6 +109,7 @@ let mes = "Mayo";
 let ano = "2023";
 let fecha;
 let registrofinal = new Array();
+
 
 function recogDatos(a) {
     dias = a;
@@ -213,3 +207,13 @@ function recogHora() {
 //         }
 //     }
 // }
+
+
+function terminar(){
+    let fechaimprimir=dias + " " + mes + " " + ano;
+    var hora = document.getElementById('btn-horas');
+    var reserva = hora.options[hora.selectedIndex].value;
+   document.getElementById('sdia1').innerHTML=fechaimprimir;
+   document.getElementById('sHora1').innerHTML= reserva;
+  
+}
