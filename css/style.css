@@ -708,7 +708,15 @@ h1 {
 #btn-registro {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1vw;
+}
+ 
+
+.title-modal button{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+
 }
 
 /*FIN Form modal*/
@@ -1619,14 +1627,15 @@ input{
     }
 
     .modal {
-        width: 35%;
+        width: 70%;
         height: 99vh;
         border-radius: 25px;
         display: flex;
+        margin: 0 auto;
         align-items: center;
         position: fixed;
         top: 0.5%;
-        left: 30%;
+        left: 15%;
         flex-flow: column;
         align-items: center;
         background-color: rgba(248, 38, 167, 0.8);
@@ -1638,6 +1647,7 @@ input{
         display: flex;
         justify-content: space-around;
         position: relative;
+        
     }
 
     .logo-modal {
@@ -1646,10 +1656,10 @@ input{
         top: 10%;
         left: 35%;
     }
+   
 
     .close-modal {
         width: 5vw;
-        height: 5vh;
         background-color: transparent;
         border: 0;
         position: absolute;
@@ -1670,20 +1680,13 @@ input{
 
     .registrar-modal {
         height: 65vh;
-        width: 20vw;
+        width: 50vw;
         display: flex;
         flex-flow: column;
         position: relative;
 
     }
 
-    .registrar-modal h2 {
-        position: absolute;
-        top: 3%;
-        left: 15%;
-        font-size: 25px;
-        font-weight: bold;
-    }
 
     .lCorreo {
         position: absolute;
@@ -1723,13 +1726,14 @@ input{
     }
 
     /*BOTONES modal*/
+
     .btn-ses {
         position: absolute;
         top: 55%;
         text-align: center;
         background-color: rgb(235, 31, 31);
         color: #ffffff;
-        font-size: 16px;
+        
     }
 
     .o {
@@ -1746,7 +1750,8 @@ input{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+
+     
     }
 
     .google:hover {
@@ -1767,7 +1772,7 @@ input{
     #btn-registro {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-size: 16px;
+       
     }
 
     /*FIN Form modal*/
@@ -1998,7 +2003,9 @@ font-size: 5vw;
    
 }
 .title-modal{
-    width: 60%;
+    width: 100%;
+    display: flex;
+    
 }
 
 .registrarse form{
