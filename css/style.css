@@ -390,10 +390,13 @@ aside a:hover {
     width: 85%;
     margin-left: 5%;
 }
-
-#imgpropaganda {
+.contalexprop a{
     width: 5%;
     height: 7.5vh;
+}
+#imgpropaganda {
+    width: 100%;
+    height: 100%;
     background-image: url(../images/svg-image2.png);
     background-size: 100% 100%;
 }
@@ -421,9 +424,13 @@ aside a:hover {
     margin-left: 5%;
 }
 
-#imgpropaganda2 {
+.contalexprop2 a{
     width: 5%;
     height: 7.5vh;
+}
+#imgpropaganda2 {
+    width: 100%;
+    height: 100%;
     background-image: url(../images/svg-image.png);
     background-size: 100% 100%;
 
@@ -701,7 +708,15 @@ h1 {
 #btn-registro {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1vw;
+}
+ 
+
+.title-modal button{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+
 }
 
 /*FIN Form modal*/
@@ -792,13 +807,12 @@ span {
 }
 
 .img-corp-down {
-    width: 6vw;
-    height: 10vh;
+    width: 15vw;
     margin-block-start: 0.8rem;
 }
 
 .inf-footer {
-    width: 60%;
+    width: 58%;
     margin-block-start: 2rem;
 }
 
@@ -815,6 +829,7 @@ span {
 }
 
 .cont-footer {
+    width: 19%;
     margin-block-start: 1.5rem;
 }
 
@@ -918,6 +933,24 @@ span {
 
 /*INICIO Modal reserva*/
 
+.modal-container{
+    font-size: 1vw;
+}
+.modal-container p{
+    font-size: 1vw;
+}
+.modal-container input{
+    width: 100%;
+    height: 5vh;
+    font-size: 1vw;
+
+}
+.modal-container button{
+    width: 100%;
+    height: 5vh;
+    font-size: 1vw;
+
+}
 .resultado-modal h2 {
     margin-block-start: 15%;
     font-size: 3vw;
@@ -976,56 +1009,83 @@ span {
 .btn-aceptar:hover {
     background-color: rgb(4, 95, 4);
 }
+.registrar-modal h2{
+    font-size: 3vw;
+}
 
-
+.registrar-modal label{
+    font-size: 1.5vw;
+}
+.google{
+    font-size: 1vw;
+}
 /* INICIO registrar.html*/
 
-.regis-container {
-    width: 100%;
-}
 
 .registrarse {
     width: 35%;
     height: 99vh;
-    border-radius: 25px;
+    border-radius: 2vw;
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 0.5%;
-    left: 30%;
+    margin: 0 auto;
     flex-flow: column;
     align-items: center;
     background-color: rgba(217, 248, 38, 0.8);
+    font-size: 1vw;
+   
+   
+}
+.registrar-modal h2{
+    font-size: 2vw;
+    
+}
+
+input{
+    width: 100vw;
+    height: 5vh;
+    font-size: 1vw;
 }
 
 .lNombre {
     position: absolute;
     top: 48%;
-    font-size: 18px;
+    font-size: 1.2vw;
+}
+.lCorreo{
+    font-size: 1.2vw;
+}
+.lPass{
+    font-size: 1.2vw;
 }
 
 #iNombre {
     position: absolute;
     top: 54%;
-    font-size: 18px;
+    
 }
 
 .btn-volver {
+    width: 100%;
+    height: 5vh;
     position: absolute;
     top: 75%;
     text-align: center;
     background-color: rgb(235, 31, 31);
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 .button-regis {
+    width: 100%;
+    height: 5vh;
     position: absolute;
     top: 65%;
     background-color: rgb(0, 81, 255);
 }
-
-
+#btn-registro{
+    font-size: 1vw;
+}
 /* FIN registrar.html*/
 
 /***********************************************************************************************************************************/
@@ -1035,7 +1095,13 @@ span {
 
 
 @media (max-width: 768px) {
-
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    
+    }
 
     .container-principal {
         width: 100%;
@@ -1396,13 +1462,18 @@ span {
         width: 85%;
         margin-left: 5%;
     }
+    .contalexprop a{
+        width: 7%;
+        height: 7.5vh;
+    }
 
     #imgpropaganda {
-        width: 5%;
-        height: 7.5vh;
+        width: 100%;
+        height: 100%;
         background-image: url(../images/svg-image2.png);
         background-size: 100% 100%;
     }
+    
 
     .contalexprop2 {
         display: flex;
@@ -1419,9 +1490,14 @@ span {
         margin-left: 5%;
     }
 
-    #imgpropaganda2 {
-        width: 5%;
+    .contalexprop2 a{
+        width: 7%;
         height: 7.5vh;
+    }
+
+    #imgpropaganda2 {
+        width: 100%;
+        height:100%;
         background-image: url(../images/svg-image.png);
         background-size: 100% 100%;
 
@@ -1551,14 +1627,15 @@ span {
     }
 
     .modal {
-        width: 35%;
+        width: 70%;
         height: 99vh;
         border-radius: 25px;
         display: flex;
+        margin: 0 auto;
         align-items: center;
         position: fixed;
         top: 0.5%;
-        left: 30%;
+        left: 15%;
         flex-flow: column;
         align-items: center;
         background-color: rgba(248, 38, 167, 0.8);
@@ -1570,6 +1647,7 @@ span {
         display: flex;
         justify-content: space-around;
         position: relative;
+        
     }
 
     .logo-modal {
@@ -1578,10 +1656,10 @@ span {
         top: 10%;
         left: 35%;
     }
+   
 
     .close-modal {
         width: 5vw;
-        height: 5vh;
         background-color: transparent;
         border: 0;
         position: absolute;
@@ -1602,20 +1680,13 @@ span {
 
     .registrar-modal {
         height: 65vh;
-        width: 20vw;
+        width: 50vw;
         display: flex;
         flex-flow: column;
         position: relative;
 
     }
 
-    .registrar-modal h2 {
-        position: absolute;
-        top: 3%;
-        left: 15%;
-        font-size: 25px;
-        font-weight: bold;
-    }
 
     .lCorreo {
         position: absolute;
@@ -1655,13 +1726,14 @@ span {
     }
 
     /*BOTONES modal*/
+
     .btn-ses {
         position: absolute;
         top: 55%;
         text-align: center;
         background-color: rgb(235, 31, 31);
         color: #ffffff;
-        font-size: 16px;
+        
     }
 
     .o {
@@ -1678,7 +1750,8 @@ span {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+
+     
     }
 
     .google:hover {
@@ -1699,7 +1772,7 @@ span {
     #btn-registro {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-size: 16px;
+       
     }
 
     /*FIN Form modal*/
@@ -1789,10 +1862,8 @@ span {
 
     }
 
-    .img-corp-down {
-        width: 6vw;
-        height: 10vh;
-        margin-block-start: 0.8rem;
+    .img-corp-down{
+        width: 15vw;
     }
 
     .inf-footer {
@@ -1813,6 +1884,7 @@ span {
     }
 
     .cont-footer {
+        width: 19%;
         margin-block-start: 1.5rem;
     }
 
@@ -1831,14 +1903,16 @@ span {
         background-color: #CC8FD2;
     }
 
+  
     .cabe-reser {
         width: 100%;
         height: 14vh;
-        background-color: white;
+        background-color:black;
         display: flex;
         justify-content: space-evenly;
     }
-
+ 
+    
     .contenido-reserva {
         width: 100%;
         height: 65vh;
@@ -1853,7 +1927,7 @@ span {
 
     #mes {
         margin-inline-start: 5%;
-        font-size: 3rem;
+        font-size: 3vw;
         color: white;
 
     }
@@ -1865,11 +1939,17 @@ span {
 
     .table-reser {
         width: 100%;
-        height: 60%;
+        height: 50vh;
         margin-block-start: 2%;
-        font-size: 2rem;
+     
         text-align: center;
         color: white;
+    }
+    .table-reser th{
+        font-size: 5vw;
+            }
+    .table-reser td{
+font-size: 5vw;
     }
 
     .table-finde {
@@ -1878,7 +1958,7 @@ span {
 
     .table-col:hover {
         background-color: #000000;
-        border-radius: 5px;
+        border-radius: 5vw;
     }
 
     /*Botones*/
@@ -1893,18 +1973,94 @@ span {
     .btn-horas {
         width: 15%;
         padding: 1% 1% 1% 5%;
-        border-radius: 8px;
+        border-radius: 8vw;
         border: none;
+
     }
 
     .btn-siguiente {
-        width: 15%;
-        padding: 1%;
-        border-radius: 8px;
+        width: 70vw;
+        height: 10vh;
+        padding: 5%;
+        border-radius:8vw;
         background-color: rgb(183, 222, 43);
         border: none;
     }
 
+/*reserva-responsive*/
 
+.registrarse {
+    width: 100%;
+    height: 99vh;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgba(217, 248, 38, 0.8);
+    font-size: 3vw;
+   
+}
+.title-modal{
+    width: 100%;
+    display: flex;
+    
+}
+
+.registrarse form{
+    width: 70%;
+}
+
+.registrar-modal h2{
+    font-size: 5vw;
+    
+}
+
+input{
+    width: 100vw;
+    height: 5vh;
+    font-size: 2vw;
+}
+
+.lNombre {
+    position: absolute;
+    top: 48%;
+    font-size: 3vw;
+}
+.lCorreo{
+    font-size: 3vw;
+}
+.lPass{
+    font-size: 3vw;
+}
+
+#iNombre {
+    position: absolute;
+    top: 54%;
+    
+}
+
+.btn-volver {
+    width: 100%;
+    height: 5vh;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    background-color: rgb(235, 31, 31);
+    color: #ffffff;
+    font-size: 3vw;
+}
+
+.button-regis {
+    width: 100%;
+    height: 5vh;
+    position: absolute;
+    top: 65%;
+    background-color: rgb(0, 81, 255);
+}
+#btn-registro{
+    font-size: 3vw;
+}
 
 }
