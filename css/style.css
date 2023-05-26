@@ -1023,7 +1023,8 @@ input{
 
 #sNombre1{
     position: absolute;
-    top: 62%;
+    top: 39%;
+    left: 29%;
     font-size: 1.5vw;
     
 }
@@ -1745,7 +1746,6 @@ input{
 
     /*Inicio slider Alex*/
     :root {
-
         --move-initial: calc(5%);
         --move-final: calc(-50%);
     }
